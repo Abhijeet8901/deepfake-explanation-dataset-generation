@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in the checkered shirt",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "the man in the checkered shirt",
+            "Explanation": [
+                "the man in the checkered shirt",
+                "add a pacifier in his mouth"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "the man in the checkered shirt",
+            "Explanation": [
+                "the man in the checkered shirt",
+                "add sunglasses and have him lean casually against the cage"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "the man in the checkered shirt",
+            "Explanation": [
+                "the man in the checkered shirt",
+                "add a gold medal around his neck and have him puff out his chest"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "the man in the checkered shirt",
+            "Explanation": [
+                "the man in the checkered shirt",
+                "add a tear running down his cheek and have him look down with a slumped posture"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "the man in the checkered shirt",
+            "Explanation": [
+                "the man in the checkered shirt",
+                "replace his clothes with oversized, ill-fitting ones and have him nervously fidget with his hands"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "the cages",
+            "Explanation": [
+                "the cages",
+                "replace the birds in the cages with hamsters"
+            ]
+        }
+    ]
+}

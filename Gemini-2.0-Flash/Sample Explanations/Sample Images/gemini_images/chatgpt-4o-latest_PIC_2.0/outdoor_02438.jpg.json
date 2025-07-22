@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman in blue with pink sunglasses",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "humans",
+            "Explanation": [
+                "the woman in blue with pink sunglasses",
+                "adjust her facial expression to include wide eyes and a slightly open mouth"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "humans",
+            "Explanation": [
+                "the woman in blue with pink sunglasses",
+                "adjust her posture to be more relaxed, and add a slight smirk to her face"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "humans",
+            "Explanation": [
+                "the woman in blue with pink sunglasses",
+                "tilt her chin slightly upward and adjust her facial expression to a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "humans",
+            "Explanation": [
+                "the woman in blue with pink sunglasses",
+                "lower her head slightly and add a frown or downturned mouth"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "the woman in blue with pink sunglasses",
+                "adjust her arm posture to appear unsure or clumsy and widen her eyes"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "text on the woman's shorts ('Adidas' and 'selimy')",
+                "replace 'Adidas' with 'Nike' and 'selimy' with 'proline'"
+            ]
+        }
+    ]
+}

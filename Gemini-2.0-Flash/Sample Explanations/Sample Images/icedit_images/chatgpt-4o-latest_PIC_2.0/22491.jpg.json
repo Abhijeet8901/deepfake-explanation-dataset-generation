@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman kicking the pad",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman kicking the pad",
+                "widen her eyes and slightly part her lips as if unsure or surprised"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman kicking the pad",
+                "relax her facial expression and posture, showing a casual, effortless demeanor"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman kicking the pad",
+                "adjust her facial expression to include a confident smile and slightly raise her chin"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman kicking the pad",
+                "lower her eyes and add a slight frown to her face"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman kicking the pad",
+                "make her kick less precise by changing the angle and posture to look unbalanced"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the 'CENTURY' logo on the punching bag",
+                "replace 'CENTURY' with 'FIGHTTECH'"
+            ]
+        }
+    ]
+}

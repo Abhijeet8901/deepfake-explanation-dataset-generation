@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man in the suit",
+      "explanation": "The man looks a little stiff, like a toy soldier. His posture is too perfect and upright, which doesn't look natural when someone is holding something heavy."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man would likely have a slightly more relaxed and natural posture, with his shoulders a bit less rigid."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Restore a natural, confident posture.",
+    "Change Target": "human",
+    "Explanation": [
+      "The man in the suit",
+      "Adjust body language to display a more confident and relaxed posture, with relaxed shoulders."
+    ]
+  }
+}

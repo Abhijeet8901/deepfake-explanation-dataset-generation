@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in the center wearing a large black hat and glasses, holding a phone to his ear",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the center",
+                "replace his confident facial expression with wide, curious eyes and a slightly open mouth"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the center",
+                "adjust his posture to be more relaxed, slouching slightly, and change facial expression to a calm, indifferent look"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the center",
+                "raise his chin slightly and adjust facial expression to include a slight smile and a confident gaze"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the center",
+                "lower his gaze, furrow his brows, and slightly frown to convey a sense of guilt or sorrow"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the center",
+                "add a slightly confused expression and change his hand gesture to fumbling with the phone as if unsure how to use it"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "blue sign in the background",
+                "replace current unreadable text with 'Jerusalem Market, Est. 2020'"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the person in the center behind the cake",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the person in the center behind the cake",
+                "add a slight open-mouthed smile and widen the eyes"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the person in the center behind the cake",
+                "adjust eyebrows to a relaxed position and add a subtle smirk"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the person in the center behind the cake",
+                "raise chin slightly and add a broad, confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the person in the center behind the cake",
+                "tilt head slightly downward and add a frown with closed lips"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the person in the center behind the cake",
+                "add a confused or hesitant expression with slightly furrowed brows"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "text on cake that reads '50 Years of Service'",
+                "replace with '25 Years of Service'"
+            ]
+        }
+    ]
+}

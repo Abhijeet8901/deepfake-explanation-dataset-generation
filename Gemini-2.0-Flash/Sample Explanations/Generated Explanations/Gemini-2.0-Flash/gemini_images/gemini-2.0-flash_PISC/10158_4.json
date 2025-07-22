@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man",
+      "explanation": "The man is wearing a suit, but it doesn't fit him very well. It looks like someone borrowed a suit that's too big for them, like when kids dress up in their parents' clothes."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man was likely wearing a shirt that fit him comfortably and looked natural in the setting."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The man appears more casual and relaxed.",
+    "Change Target": "Clothing",
+    "Explanation": [
+      "The man's ill-fitting suit",
+      "Replace the ill-fitting business suit with a light, short-sleeved button-down shirt with a floral pattern."
+    ]
+  }
+}

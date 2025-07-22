@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the tall woman in the pink top standing in the foreground, right side",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the tall woman in the pink top",
+                "edit her facial expression to wide eyes with raised eyebrows and a subtle open-mouth smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the tall woman in the pink top",
+                "edit her pose to have one shoulder slightly raised with a tilted head and a relaxed, slight smirk"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the tall woman in the pink top",
+                "straighten her posture, lift her chin slightly, and adjust her smile to appear confident and self-assured"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the tall woman in the pink top",
+                "edit her facial expression to downcast eyes, furrowed brows, and a slight frown"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the tall woman in the pink top",
+                "adjust her body language to closed posture (arms slightly crossed or hands fidgeting) and add a hesitant expression"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the wall text behind the people reading 'ER LEGIS'",
+                "replace text with 'CITY YOUTH CENTER' to change the institutional context from legislative to youth-related"
+            ]
+        }
+    ]
+}

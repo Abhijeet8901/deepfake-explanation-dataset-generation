@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "boy in blue sports jersey kicking the ball",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "boy in blue sports jersey kicking the ball",
+                "adjust facial expression to wide-eyed with a slightly open mouth and raised eyebrows"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "boy in blue sports jersey kicking the ball",
+                "adjust facial expression to a relaxed, half-smile with slightly lowered eyelids"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "boy in blue sports jersey kicking the ball",
+                "adjust facial expression to a confident, broad smile with chest slightly puffed out"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "boy in blue sports jersey kicking the ball",
+                "adjust facial expression to frowning with lowered head and downcast eyes"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "boy in blue sports jersey kicking the ball",
+                "adjust body posture to show imbalance, like arms flailing slightly and leaning too far back"
+            ]
+        },
+        {
+            "Effect": "factual information changes",
+            "Change Target": "object",
+            "Explanation": [
+                "football",
+                "replace the text/logo on the ball from 'Auskick' to 'Junior League'"
+            ]
+        }
+    ]
+}

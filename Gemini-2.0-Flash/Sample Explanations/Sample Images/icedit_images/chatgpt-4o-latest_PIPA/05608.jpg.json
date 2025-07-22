@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in white military uniform speaking at the podium",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white military uniform",
+                "alter facial expression to wide eyes and slightly open mouth to convey innocence and wonder"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white military uniform",
+                "adjust posture to relaxed stance, tilt head slightly back, and add a casual smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white military uniform",
+                "raise chin slightly, add a confident expression, and enhance lighting to highlight medals"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white military uniform",
+                "add downward gaze, furrow eyebrows, and slight frown to convey regret"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white military uniform",
+                "remove some medals and adjust posture to appear unsure or awkward"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "text on the podium",
+                "replace 'National Defense University' with 'Naval Training Center'"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman behind the counter",
+      "explanation": "The woman's face looks like a cartoon sticker has been placed on her face. It doesn't look like it belongs there."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman behind the counter likely had a normal, real-looking face."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Return the woman's face to its original appearance.",
+    "Change Target": "human",
+    "Explanation": [
+      "the woman behind the counter",
+      "Remove the cartoonish face and revert her face to its original appearance."
+    ]
+  }
+}

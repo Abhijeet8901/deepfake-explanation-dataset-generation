@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The woman in the center of the image",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "objects",
+            "Explanation": [
+                "the woman's headwear",
+                "replace the dark headwrap with a brightly colored, childish headband with bows or cartoon characters."
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "person",
+            "Explanation": [
+                "the woman",
+                "make the woman lean slightly against the table, with one hand casually in her pocket and a bored expression on her face."
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "person",
+            "Explanation": [
+                "the woman",
+                "Make the woman stand up straight with shoulders pulled back. Make her have a wide smile and look directly into the camera."
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "person",
+            "Explanation": [
+                "the woman",
+                "Lower the woman's head slightly, avert her eyes downwards, and make her mouth look downturned."
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "person",
+            "Explanation": [
+                "the woman",
+                "Add paint smudges on the woman's face and clothes. Make her hands look clumsy and covered with paint."
+            ]
+        },
+        {
+            "Effect": "factual information change",
+            "Change Target": "objects",
+            "Explanation": [
+                "the objects on the table",
+                "replace all the ceramic pieces on the table with modern art supplies like spray paint cans, sculpting tools, and abstract artwork."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman behind the counter handing over the ice cream cone",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman behind the counter",
+                "adjust her facial expression to wide eyes and a slight open-mouthed smile to convey innocence and curiosity"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman behind the counter",
+                "adjust her posture to be more relaxed, with a slight lean and neutral expression"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman behind the counter",
+                "add a confident smile and a slight upward tilt to her chin"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman behind the counter",
+                "adjust her facial expression to include furrowed brows and downcast eyes"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman behind the counter",
+                "add slight fumble with the ice cream cone, making her hand position awkward"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the label on the white cup with red text on the counter",
+                "replace the text 'Paul' with 'Anna's Ice Cream'"
+            ]
+        }
+    ]
+}

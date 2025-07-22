@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in the orange shirt standing near the students",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the orange shirt",
+                "adjust his facial expression to have wide eyes and a slightly open mouth as if surprised or curious"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the orange shirt",
+                "change his posture to leaning back slightly with one hand in his pocket and a relaxed facial expression"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the orange shirt",
+                "modify his posture to have his chest slightly puffed out and a broad smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the orange shirt",
+                "adjust his facial expression to show downcast eyes and a slight frown"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the orange shirt",
+                "adjust his body language to include nervous fidgeting and uncertain posture, such as holding papers awkwardly"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "text on the posters in the background",
+                "replace the educational graphics and scientific terms with fictional or outdated scientific content (e.g., change 'solar system' to 'four planet model')"
+            ]
+        }
+    ]
+}

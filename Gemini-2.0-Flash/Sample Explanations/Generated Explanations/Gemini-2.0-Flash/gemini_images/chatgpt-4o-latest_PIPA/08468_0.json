@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman in the foreground",
+      "explanation": "The lady's head looks like it was stuck on her body from a different picture. Her head is facing the camera, but her body is turned. It looks like a sticker."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The lady in the front would have her original head looking in the same direction as her body, and her backpack would not have a sticker on it."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert head and backpack to original state",
+    "Change Target": "human",
+    "Explanation": [
+      "the woman in the foreground",
+      "Replace the woman's head with her original head, and remove the flower sticker from her backpack."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman in the green top",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "her facial expression",
+            "Explanation": [
+                "her facial expression",
+                "change her facial expression to a wide-eyed, slightly open-mouthed expression as if she's surprised and doesn't understand the game."
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "her posture",
+            "Explanation": [
+                "her posture",
+                "make her slump her shoulders and hold the controller in a relaxed, almost disinterested way."
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "her facial expression",
+            "Explanation": [
+                "her facial expression",
+                "change her facial expression to a confident smirk, with her chin slightly lifted."
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "her facial expression",
+            "Explanation": [
+                "her facial expression",
+                "make her face look downcast and slightly teary-eyed. Lower her eyebrows and slightly frown."
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "her grip on the controller",
+            "Explanation": [
+                "her grip on the controller",
+                "have her holding the controller very tightly and awkwardly, almost as if she's afraid of dropping it."
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "the television screen",
+            "Explanation": [
+                "the television screen",
+                "change the game on the television screen to show a chess game."
+            ]
+        }
+    ]
+}

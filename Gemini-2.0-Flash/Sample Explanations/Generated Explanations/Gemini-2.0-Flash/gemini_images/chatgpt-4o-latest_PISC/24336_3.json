@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The person in midair",
+      "explanation": "The person in midair looks out of place because there are two other people behind them and one is partially blocked as if the person was pasted in front of them like a sticker."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The person would not be covering another person and would be behind the other two people."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Move person behind the other people.",
+    "Change Target": "human",
+    "Explanation": [
+      "The person in midair.",
+      "Move the person farther back in the image so they are behind the other people."
+    ]
+  }
+}

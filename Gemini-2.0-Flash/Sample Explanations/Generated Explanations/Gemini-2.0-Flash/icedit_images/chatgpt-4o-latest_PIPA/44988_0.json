@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The tall woman's face",
+      "explanation": "The tall woman's face looks odd because her mouth is open really wide and her eyes are wide, like she is surprised. But she looks like she is standing in a normal picture with other ladies, so it doesn't make sense for her to look so shocked. It's like someone put a silly sticker on her face."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The tall woman's face likely had a more relaxed expression, maybe a small smile or just a normal face, so she would look like she fits in the picture."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the facial expression.",
+    "Change Target": "human",
+    "Explanation": [
+      "the tall woman in the pink top",
+      "change her facial expression back to a natural smile"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in the foreground wearing black sunglasses and a black cap",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "humans",
+            "Explanation": [
+                "man in the foreground wearing black sunglasses and a black cap",
+                "replace his sunglasses with wide, round eyeglasses and slightly open his mouth as if in awe"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "humans",
+            "Explanation": [
+                "man in the foreground wearing black sunglasses and a black cap",
+                "adjust his facial expression to include a slight smirk and tilt his head back relaxedly"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "humans",
+            "Explanation": [
+                "man in the foreground wearing black sunglasses and a black cap",
+                "adjust his posture to a straighter, more upright one with his chest slightly out and a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "humans",
+            "Explanation": [
+                "man in the foreground wearing black sunglasses and a black cap",
+                "lower his head slightly, furrow his brows, and remove the sunglasses to reveal downcast eyes"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "man in the foreground wearing black sunglasses and a black cap",
+                "replace his outfit with a touristy T-shirt with a visible map and sling a guidebook around his neck"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "text on the man's gray T-shirt",
+                "replace 'BULLZ' with 'NASA' to change the factual affiliation or interest portrayed"
+            ]
+        }
+    ]
+}

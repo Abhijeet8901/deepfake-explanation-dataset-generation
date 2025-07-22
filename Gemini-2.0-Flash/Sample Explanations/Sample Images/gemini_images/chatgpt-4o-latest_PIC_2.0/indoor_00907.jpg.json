@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "woman in black shirt with curly dark hair on the right, making a facial expression with raised eyebrows and slightly tilted head",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human expression",
+            "Explanation": [
+                "woman in black shirt",
+                "adjust her eyebrows to be raised symmetrically and widen her eyes slightly, while curving her mouth into a soft smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human expression",
+            "Explanation": [
+                "woman in black shirt",
+                "adjust her eyebrows to be slightly lowered and straighten her mouth into a relaxed line while looking off to the side"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human posture",
+            "Explanation": [
+                "woman in black shirt",
+                "straighten her posture, lift chin slightly upward, and add a subtle smirk on her face"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human expression",
+            "Explanation": [
+                "woman in black shirt",
+                "add a furrow to her brows, lower the corners of her mouth, and tilt her head slightly downward"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human posture",
+            "Explanation": [
+                "woman in black shirt",
+                "make her shoulders hunched slightly and her eyes looking around nervously"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "'You were in bed and you were depressed.'",
+                "replace it with 'You were already up and feeling great.'"
+            ]
+        }
+    ]
+}

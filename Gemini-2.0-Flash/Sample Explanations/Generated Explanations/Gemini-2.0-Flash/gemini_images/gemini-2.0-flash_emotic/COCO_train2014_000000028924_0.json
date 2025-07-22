@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The tennis balls",
+      "explanation": "There are now two tennis balls in the picture when there should only be one. It's like someone pasted a sticker of a tennis ball floating in the air."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "There was likely only one tennis ball near the player as she was hitting it."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Remove an extra tennis ball",
+    "Change Target": "object",
+    "Explanation": [
+      "The tennis balls",
+      "Remove the tennis ball that is hovering in the air near the player's head, leaving only the ball she is hitting."
+    ]
+  }
+}

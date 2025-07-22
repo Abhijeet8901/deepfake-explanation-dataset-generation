@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in glasses drinking a beverage",
+    "Effects": [
+        {
+            "Effect": "appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in glasses drinking a beverage",
+                "make his eyes look wider and add a slight, awkward smile"
+            ]
+        },
+        {
+            "Effect": "appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in glasses drinking a beverage",
+                "lower his eyebrows and slightly tilt his head back"
+            ]
+        },
+        {
+            "Effect": "appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in glasses drinking a beverage",
+                "raise his chin slightly and add a confident smirk"
+            ]
+        },
+        {
+            "Effect": "appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in glasses drinking a beverage",
+                "tilt his head downward slightly and add a small frown"
+            ]
+        },
+        {
+            "Effect": "appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in glasses drinking a beverage",
+                "add slight clumsiness to his grip on the cup, such as fingers positioned awkwardly"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the sign reading 'Buy Your Favorites Here'",
+                "replace the text with 'New Arrivals Daily'"
+            ]
+        }
+    ]
+}

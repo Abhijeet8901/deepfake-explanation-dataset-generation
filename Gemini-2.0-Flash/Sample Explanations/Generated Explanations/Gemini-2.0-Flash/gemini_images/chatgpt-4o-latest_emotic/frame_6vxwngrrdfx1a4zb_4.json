@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The chef",
+      "explanation": "The chef is holding the knife in a way that doesn't look quite right. It's like he's playing with a toy knife, not like he's really about to cut sushi."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The chef should be holding the knife in a confident and professional way, ready to prepare food."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The chef appears more experienced and confident.",
+    "Change Target": "human",
+    "Explanation": [
+      "The chef on the right side of the counter.",
+      "Remove the 'trainee' badge from the chef's uniform, and make the chef hold the sushi knife in a professional and experienced manner."
+    ]
+  }
+}

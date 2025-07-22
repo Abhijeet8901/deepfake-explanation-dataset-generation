@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the person on the right wearing a cap and crossing the rocks with both hands",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the person on the right wearing a cap",
+                "adjust facial expression to wide eyes and slight open mouth, and remove gloves to make the person appear unprepared"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the person on the right wearing a cap",
+                "change posture to a relaxed stance with one hand in pocket and a slight smile on face"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the person on the right wearing a cap",
+                "adjust posture to standing upright with hands on hips and head slightly lifted"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the person on the right wearing a cap",
+                "change facial expression to furrowed brows with downward gaze; slightly slouch shoulders"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the person on the right wearing a cap",
+                "remove professional gear like gloves and backpack; add new boots with tags and confused facial expression"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "blue backpack on the person on the right",
+                "change color of backpack from blue to red to indicate different equipment"
+            ]
+        }
+    ]
+}

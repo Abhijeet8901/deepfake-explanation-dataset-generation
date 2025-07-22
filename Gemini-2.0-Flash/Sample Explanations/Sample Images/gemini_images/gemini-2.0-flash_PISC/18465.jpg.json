@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The man in the white shirt and tie",
+    "Effects": [
+        {
+            "Effect": "The person appears naive",
+            "Change Target": "The man's expression",
+            "Explanation": [
+                "The man's expression",
+                "Change the expression to a wide-eyed, slightly open-mouthed look."
+            ]
+        },
+        {
+            "Effect": "The person appears nonchalant",
+            "Change Target": "The man's posture",
+            "Explanation": [
+                "The man's posture",
+                "Make him lean back slightly, possibly with one hand in his pocket and a slight smirk."
+            ]
+        },
+        {
+            "Effect": "The person appears proud",
+            "Change Target": "The man's posture",
+            "Explanation": [
+                "The man's posture",
+                "Straighten his back, lift his chin slightly, and give him a subtle, confident smile."
+            ]
+        },
+        {
+            "Effect": "The person appears remorseful",
+            "Change Target": "The man's expression",
+            "Explanation": [
+                "The man's expression",
+                "Make him look downcast, with a furrowed brow and slightly downturned mouth."
+            ]
+        },
+        {
+            "Effect": "The person appears inexperienced",
+            "Change Target": "The man's clothing",
+            "Explanation": [
+                "The man's clothing",
+                "Replace the tie with a clip-on tie that is slightly crooked and loosen the knot of the shirt slightly."
+            ]
+        },
+        {
+            "Effect": "Some factual information depicted in the image changes",
+            "Change Target": "The bottles on the table",
+            "Explanation": [
+                "The bottles on the table",
+                "Replace the water bottle with a bottle of a generic brand of energy drink."
+            ]
+        }
+    ]
+}

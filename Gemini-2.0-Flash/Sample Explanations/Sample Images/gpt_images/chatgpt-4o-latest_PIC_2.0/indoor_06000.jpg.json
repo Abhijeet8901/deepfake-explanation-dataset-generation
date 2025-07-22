@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "woman in the red coat holding a document on the left",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "woman in the red coat",
+                "adjust facial expression to wide-eyed with a slight smile and raised eyebrows"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "woman in the red coat",
+                "alter posture to a relaxed, reclined pose with one hand resting loosely and facial expression appearing uninterested or casual"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "woman in the red coat",
+                "modify facial expression to show a confident smile and adjust posture to upright with shoulders back"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "woman in the red coat",
+                "change facial expression to downcast eyes and a slight frown, with slumped shoulders"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "woman in the red coat",
+                "edit facial expression to look uncertain or nervous, and add a detail such as her holding the document upside down or fumbling it slightly"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "plate with 'Oulele' text",
+                "replace text 'Oulele' with 'Ovaltine'"
+            ]
+        }
+    ]
+}

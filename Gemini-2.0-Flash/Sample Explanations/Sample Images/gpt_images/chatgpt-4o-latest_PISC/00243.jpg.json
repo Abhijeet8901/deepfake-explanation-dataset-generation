@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the hockey player in the center wearing a white jersey with red and black stripes, black helmet, and yellow wheels on skates",
+    "Effects": [
+        {
+            "Effect": "the person appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the hockey player in the center",
+                "widen the eyes and add a slightly confused or curious facial expression"
+            ]
+        },
+        {
+            "Effect": "the person appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the hockey player in the center",
+                "adjust the body posture to slouch slightly and add a relaxed facial expression with half-closed eyes"
+            ]
+        },
+        {
+            "Effect": "the person appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the hockey player in the center",
+                "adjust facial expression to a confident smile and raise the chin slightly"
+            ]
+        },
+        {
+            "Effect": "the person appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the hockey player in the center",
+                "add a downcast gaze and furrow the brows slightly"
+            ]
+        },
+        {
+            "Effect": "the person appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the hockey player in the center",
+                "adjust pose to make the person fumble with the hockey stick or stand stiffly"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the text on the advertisement board at the back reading 'Bonnet Papa'",
+                "replace 'Bonnet Papa' with 'SkateZone Arena'"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman in the foreground carrying a large white trash bag",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the foreground",
+                "change her facial expression to wide-eyed with a mild smile, and add a flower sticker on her backpack"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the foreground",
+                "change her posture so that she is walking more relaxed with one hand in her pocket and head slightly turned as if looking around casually"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the foreground",
+                "adjust her posture to be more upright with her chin slightly up and a confident smile on her face"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the foreground",
+                "tilt her head slightly downward, furrow her brow, and replace smile with a sad or contemplative expression"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the foreground",
+                "add a trail map clearly hanging from her backpack and slightly disheveled clothing as if she\u2019s unprepared"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "objects",
+            "Explanation": [
+                "the trash bag the woman is holding",
+                "replace the clear trash bag with a transparent bag full of recyclables marked with a 'Recycle' logo"
+            ]
+        }
+    ]
+}

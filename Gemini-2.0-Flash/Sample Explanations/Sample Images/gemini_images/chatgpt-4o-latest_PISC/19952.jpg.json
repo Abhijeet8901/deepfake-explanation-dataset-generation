@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the pitcher standing on the mound in the foreground",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "humans",
+            "Explanation": [
+                "the pitcher standing on the mound in the foreground",
+                "modify facial expression to wide-eyed with slightly raised eyebrows and mouth slightly open"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "humans",
+            "Explanation": [
+                "the pitcher standing on the mound in the foreground",
+                "adjust posture to slouch slightly and add a casual smirk to the face"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "humans",
+            "Explanation": [
+                "the pitcher standing on the mound in the foreground",
+                "straighten posture, tilt chin slightly upward, and add a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "humans",
+            "Explanation": [
+                "the pitcher standing on the mound in the foreground",
+                "tilt head downward, add furrowed eyebrows and a frown"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "the pitcher standing on the mound in the foreground",
+                "adjust uniform to appear slightly oversized and awkwardly fitted, and change posture to appear uncertain or uneasy (e.g., clenching glove awkwardly)"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the text 'www.GloverBryant.com'",
+                "replace it with 'www.BaseballChampions.org'"
+            ]
+        }
+    ]
+}

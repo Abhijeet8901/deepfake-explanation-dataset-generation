@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man on the examination table",
+      "explanation": "The man is lying back on the table with his hands behind his head and his eyes closed a bit, but he's at the doctor's office. Usually, when you're at the doctor's, you look like you're talking to the doctor or listening to them, not relaxing like you're on vacation."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man on the table would likely be sitting up and looking toward the doctor, perhaps explaining how he is feeling."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The person looks more engaged with the doctor.",
+    "Change Target": "human",
+    "Explanation": [
+      "The man sitting on the examination table",
+      "Adjust his posture to sit up straighter, look toward the doctor, and change his expression to be more attentive."
+    ]
+  }
+}

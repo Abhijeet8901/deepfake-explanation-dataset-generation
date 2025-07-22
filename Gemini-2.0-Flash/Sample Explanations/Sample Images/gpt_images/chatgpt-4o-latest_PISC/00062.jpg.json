@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the smiling older woman in a white lab coat (doctor)",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the smiling older woman in a white lab coat (doctor)",
+                "widen her eyes slightly and tilt her head to one side"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the smiling older woman in a white lab coat (doctor)",
+                "replace her smile with a relaxed, neutral expression and slightly slouch her posture"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the smiling older woman in a white lab coat (doctor)",
+                "raise her chin slightly and add a confident smile with arms slightly akimbo"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the smiling older woman in a white lab coat (doctor)",
+                "change her expression to a frown with downcast eyes and a slightly bowed head"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the smiling older woman in a white lab coat (doctor)",
+                "replace her appearance with a younger woman and adjust the lab coat to be slightly oversized"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the text on the clipboard or monitor (if visible)",
+                "replace visible patient name or data with different fictional information (e.g., change 'John Doe, Age 45' to 'Emily Chen, Age 29')"
+            ]
+        }
+    ]
+}

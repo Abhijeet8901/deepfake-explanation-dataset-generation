@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The skateboarder",
+    "Effects": [
+        {
+            "Effect": "Naive",
+            "Change Target": "The skateboarder's facial expression",
+            "Explanation": [
+                "The skateboarder's face",
+                "Add a wide-eyed expression with an open mouth."
+            ]
+        },
+        {
+            "Effect": "Nonchalant",
+            "Change Target": "The skateboarder's body language",
+            "Explanation": [
+                "The skateboarder",
+                "Make the skateboarder's posture more relaxed and arms less extended, with a shrug."
+            ]
+        },
+        {
+            "Effect": "Proud",
+            "Change Target": "The skateboarder's posture and facial expression",
+            "Explanation": [
+                "The skateboarder",
+                "Make the skateboarder stand taller with his chest out and add a small, confident smile."
+            ]
+        },
+        {
+            "Effect": "Remorseful",
+            "Change Target": "The skateboarder's facial expression and posture",
+            "Explanation": [
+                "The skateboarder's face",
+                "Add a downcast expression with furrowed brows and downturned mouth. Also, slouch their posture slightly."
+            ]
+        },
+        {
+            "Effect": "Inexperienced",
+            "Change Target": "The skateboarder's balance and stability on the skateboard",
+            "Explanation": [
+                "The skateboarder",
+                "Make the skateboarder look unsteady on the skateboard, with a shaky stance and flailing arms."
+            ]
+        },
+        {
+            "Effect": "Some factual information depicted in the image changes",
+            "Change Target": "The text on the poster in the background",
+            "Explanation": [
+                "The text 'July 16, 2010'",
+                "Change the text to 'July 16, 2023'"
+            ]
+        }
+    ]
+}

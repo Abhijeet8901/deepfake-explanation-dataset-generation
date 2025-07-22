@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the young woman in the green sweater holding the foal",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "humans",
+            "Explanation": [
+                "the young woman in the green sweater holding the foal",
+                "widen her eyes slightly and add a soft, tentative smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "humans",
+            "Explanation": [
+                "the young woman in the green sweater holding the foal",
+                "tilt her head slightly back and to the side, and change her expression to a relaxed, neutral gaze"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "humans",
+            "Explanation": [
+                "the young woman in the green sweater holding the foal",
+                "raise her chin slightly and add a subtle, confident smile"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "humans",
+            "Explanation": [
+                "the young woman in the green sweater holding the foal",
+                "lower her head slightly, furrow her brows, and add a faint frown"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "the young woman in the green sweater holding the foal",
+                "show her holding the foal more awkwardly, with hands hesitating or misplaced"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "objects",
+            "Explanation": [
+                "the foal",
+                "change its color from light gray to dark brown"
+            ]
+        }
+    ]
+}

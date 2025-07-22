@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man in the white shirt",
+      "explanation": "The text on the screen next to the man is gibberish. It looks like someone typed random letters and put it there instead of the real words. It doesn't match the rest of the presentation."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The text on the projection screen should be in a readable and coherent language. It should also be accurate and relevant to the image's context and other information on the screen."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Reverts the text on the screen back to the original readable language.",
+    "Change Target": "text",
+    "Explanation": [
+      "The text displayed on the screen to the right.",
+      "Change the text back to the original text that conveys meaning related to the event taking place."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman's posture",
+      "explanation": "The woman is standing with her hands on her hips, which makes her look like she's posing instead of helping a patient. It's like she's trying to show off, not be a friendly doctor."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman would likely have a more relaxed posture, with her arms down or resting on the desk, to look more approachable and caring."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The person you identified appears approachable",
+    "Change Target": "human",
+    "Explanation": [
+      "the older woman in a white lab coat (doctor)",
+      "lower her arms from her hips and make her posture more neutral."
+    ]
+  }
+}

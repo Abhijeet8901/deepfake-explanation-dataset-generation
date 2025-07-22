@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman in the white jacket and pink cap holding a stick",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the white jacket and pink cap",
+                "widen her eyes and slightly raise her eyebrows, add a slight open-mouth smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the white jacket and pink cap",
+                "tilt her head slightly backward and to the side, relax her mouth and eyes, add a subtle smirk"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the white jacket and pink cap",
+                "straighten her posture, raise her chin slightly, add a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the white jacket and pink cap",
+                "lower her head slightly, cast her gaze downward, add a somber expression to her face"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the white jacket and pink cap",
+                "make her grip the pole awkwardly, add a confused or uncertain expression to her face"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "the stick/pole held by the woman",
+                "replace it with a high-tech environmental sensor device with visible digital display"
+            ]
+        }
+    ]
+}

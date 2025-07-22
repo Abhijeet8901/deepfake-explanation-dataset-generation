@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The girl's face",
+      "explanation": "The girl's eyes are bigger and her smile is wider than normal. It's like someone pasted a cartoon face onto a real person, and the cartoon face doesn't quite fit."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The girl's eyes would be a normal size, and her smile would be more natural and less exaggerated."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The person you identified appears more natural",
+    "Change Target": "human",
+    "Explanation": [
+      "the girl in the center",
+      "narrow her eyes and reduce the intensity of her smile"
+    ]
+  }
+}

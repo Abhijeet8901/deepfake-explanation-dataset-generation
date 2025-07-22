@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The bald man wearing glasses and a gray suit",
+      "explanation": "The man's handshake looks a little weak. His hand is limp and not gripping the other person's hand firmly. It's like he's just touching the other person's hand, not really shaking it."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man's handshake would likely be firm and confident, showing a strong connection with the other person. His hand would grip the other person's hand with purpose."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The person appears more experienced and confident.",
+    "Change Target": "human",
+    "Explanation": [
+      "The bald man wearing glasses and a gray suit",
+      "Adjust the man's posture to a more confident stance with straighter shoulders and a firmer, more engaged handshake."
+    ]
+  }
+}

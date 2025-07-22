@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman",
+      "explanation": "The woman is holding the game controller like she doesn't care about the game. Her shoulders are slumped and she's looking down like she is bored. It looks like she's not even trying to play the game, which doesn't make sense because people usually pay attention when they are playing a game."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman would be standing up straight with her shoulders back, looking at the TV screen, holding the controller like she's actually playing the game."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "The person you identified appears more engaged",
+    "Change Target": "her posture",
+    "Explanation": [
+      "her posture",
+      "Make her stand up straighter with her shoulders back and look at the TV. Make her hold the controller in a more active way, as though she is playing the game."
+    ]
+  }
+}

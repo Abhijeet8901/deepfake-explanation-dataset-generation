@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman sitting in the foreground using a laptop",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman sitting in the foreground using a laptop",
+                "adjust her facial expression to wide eyes and a slight, curious smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman sitting in the foreground using a laptop",
+                "change her posture to a more relaxed pose, leaning back slightly with one hand resting casually on the laptop"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman sitting in the foreground using a laptop",
+                "adjust her expression to include a small confident smile and have her slightly raise her chin"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman sitting in the foreground using a laptop",
+                "alter her facial expression to a downcast look with furrowed brows and a slight frown"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman sitting in the foreground using a laptop",
+                "show her looking confused at the screen, possibly with her hands hovering uncertainly over the keyboard"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the watermark text '123RF' in the center of the image",
+                "replace it with 'StockPhotoCo 2025'"
+            ]
+        }
+    ]
+}

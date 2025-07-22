@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in camouflage military uniform standing in the center",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in camouflage military uniform standing in the center",
+                "Widen his eyes and soften his mouth into a slight, uncertain smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in camouflage military uniform standing in the center",
+                "Tilt his head slightly to the side and add a relaxed smirk"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in camouflage military uniform standing in the center",
+                "Raise his chin slightly and add a confident smile with a straighter posture"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in camouflage military uniform standing in the center",
+                "Lower his head slightly and give his facial expression a somber, reflective look"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in camouflage military uniform standing in the center",
+                "Add a slight slouch to his posture and show visible nervousness or hesitation on his face"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "name patch 'LOCKHART' on the uniform",
+                "Replace the name with 'NEWTON' to change identifying information"
+            ]
+        }
+    ]
+}

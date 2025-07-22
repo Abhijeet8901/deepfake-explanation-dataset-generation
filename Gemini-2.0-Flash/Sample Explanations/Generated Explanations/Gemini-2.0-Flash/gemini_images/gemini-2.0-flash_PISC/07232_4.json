@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man",
+      "explanation": "The man has brown smudges around his mouth, but they look like they were drawn on with a marker. Real chocolate would look more melty and drippy, not like a kid's drawing."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man's face and clothes would be clean, without any chocolate smudges."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Remove the added chocolate stains.",
+    "Change Target": "human",
+    "Explanation": [
+      "the man in the light blue suit",
+      "Remove all chocolate stains around his mouth and on his clothing."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man on the right",
+      "explanation": "The man on the right looks like he was pasted into the picture from somewhere else. His body looks too big compared to the man on the left, like a giant standing next to a normal person. It's like he's wearing shoes that are too big."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man on the right would be shorter and more in proportion to the man on the left, so they would look like they belong in the same picture."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Rescale the man on the right to match his original proportions.",
+    "Change Target": "human",
+    "Explanation": [
+      "The man on the right",
+      "Reduce the size of the man on the right to match the scale of the man on the left."
+    ]
+  }
+}

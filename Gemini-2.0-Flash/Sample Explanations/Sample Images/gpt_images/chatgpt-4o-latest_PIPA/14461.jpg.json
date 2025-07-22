@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in white shirt seated at the center of the panel table with a microphone",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white shirt seated at the center of the panel table with a microphone",
+                "adjust facial expression to wide-eyed with a slight open-mouthed smile and relaxed posture"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white shirt seated at the center of the panel table with a microphone",
+                "alter posture to leaning back in chair with one arm over the chair back and a casual facial expression"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white shirt seated at the center of the panel table with a microphone",
+                "adjust facial expression to a slight smile with raised chin and posture to upright with shoulders back"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white shirt seated at the center of the panel table with a microphone",
+                "change facial expression to downcast eyes and a frown, with a slightly hunched posture"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in white shirt seated at the center of the panel table with a microphone",
+                "adjust facial expression to uncertain or hesitant with furrowed brows and a slightly slouched posture"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "presentation slide text 'A COBRAN\u00c7A DE PED\u00c1GIO RODOVI\u00c1RIO NO ESTADO DE S\u00c3O PAULO'",
+                "replace with 'PLANO DE TRANSPORTE GRATUITO PARA O ESTADO DE S\u00c3O PAULO'"
+            ]
+        }
+    ]
+}

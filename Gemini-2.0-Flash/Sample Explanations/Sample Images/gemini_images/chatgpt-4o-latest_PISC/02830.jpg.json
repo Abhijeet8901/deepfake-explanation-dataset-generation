@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "woman on the right wearing white and glasses",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "humans",
+            "Explanation": [
+                "woman on the right wearing white and glasses",
+                "change her facial expression to wide-eyed with raised eyebrows and an open mouth"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "humans",
+            "Explanation": [
+                "woman on the right wearing white and glasses",
+                "change her posture to leaning back slightly, with arms loosely folded and a relaxed facial expression"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "humans",
+            "Explanation": [
+                "woman on the right wearing white and glasses",
+                "adjust her posture to sitting more upright with a slight smile and chin raised"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "humans",
+            "Explanation": [
+                "woman on the right wearing white and glasses",
+                "modify her facial expression to a downturned mouth, lowered gaze, and slouched posture"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "woman on the right wearing white and glasses",
+                "add a notepad and pen in her hands and make her appear as if she is nervously taking notes"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "wall label next to the right painting",
+                "replace existing text with 'Unknown Artist, Untitled, 2023'"
+            ]
+        }
+    ]
+}

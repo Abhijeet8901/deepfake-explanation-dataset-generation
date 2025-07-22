@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The young woman holding the foal",
+      "explanation": "The woman's clothing looks like it's been pasted on her body. The green sweater seems flat and doesn't have the wrinkles and folds that real clothes have when someone is wearing them. It looks like a sticker placed on a person."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The young woman would be wearing a jacket or sweater that fits naturally on her body, with realistic folds and shadows."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert changes to the woman's clothing.",
+    "Change Target": "human",
+    "Explanation": [
+      "The young woman in the picture.",
+      "Change the woman's jacket back to the original color and texture."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man on the bicycle",
+      "explanation": "The man on the bicycle has a weird expression on his face. It's like someone put a sticker of a surprised face on him, but it doesn't really match what he's doing with his body, which looks like he is just riding a bike."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man's face probably looked more like he was concentrating or just normally riding a bicycle, not super surprised."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the facial expression of the man on the bicycle to a normal expression.",
+    "Change Target": "human",
+    "Explanation": [
+      "The man in red and yellow cycling outfit riding the stationary bike",
+      "Change his facial expression back to a normal expression that matches the activity of riding a bike, removing the wide-eyed, surprised look."
+    ]
+  }
+}

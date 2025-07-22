@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man on the right in a dark suit shaking hands and smiling (Asian appearance)",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the man on the right shaking hands",
+                "adjust expression to a wide-eyed look with raised eyebrows and a bigger smile"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the man on the right shaking hands",
+                "change expression to relaxed eyes and a slight smirk, tilt head slightly back"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the man on the right shaking hands",
+                "adjust posture to stand straighter with shoulders back and head held slightly higher, maintain smile"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the man on the right shaking hands",
+                "change facial expression to a downturned mouth and furrowed brows, avoid direct eye contact"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the man on the right shaking hands",
+                "adjust posture to slightly slouched, change facial expression to uncertain or tentative smile"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the 'congatec' text on the orange board",
+                "replace with 'TechNova Systems'"
+            ]
+        }
+    ]
+}

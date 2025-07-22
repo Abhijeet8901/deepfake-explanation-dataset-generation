@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman's face",
+      "explanation": "The woman's expression doesn't quite match the situation. She looks angry, but her eyes are also narrowed in a way that makes her look like she's trying to focus. It's like she's trying to look both mad and determined at the same time, which doesn't feel natural."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman's facial expression was likely more relaxed or neutral, fitting the tone of the surrounding conversation and activity."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Return to a natural facial expression",
+    "Change Target": "human expression",
+    "Explanation": [
+      "woman in black shirt",
+      "Remove the furrow from her brow, raise the corners of her mouth slightly, and return her head to a more level position. Soften her gaze."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The man wearing the floral shirt",
+    "Effects": [
+        {
+            "Effect": "The man appears naive",
+            "Change Target": "Objects",
+            "Explanation": [
+                "The medallion around his neck",
+                "Replace the medallion with a bib with a cartoon character on it."
+            ]
+        },
+        {
+            "Effect": "The man appears nonchalant",
+            "Change Target": "Objects",
+            "Explanation": [
+                "The man's expression",
+                "Change the man's expression to a bored expression, making him yawn."
+            ]
+        },
+        {
+            "Effect": "The man appears proud",
+            "Change Target": "Objects",
+            "Explanation": [
+                "The bear",
+                "Add a blue ribbon with a 'Best in Show' label to the bear."
+            ]
+        },
+        {
+            "Effect": "The man appears remorseful",
+            "Change Target": "Objects",
+            "Explanation": [
+                "The man's expression",
+                "Change the man's expression to a sad expression, make the man looking down."
+            ]
+        },
+        {
+            "Effect": "The man appears inexperienced",
+            "Change Target": "Objects",
+            "Explanation": [
+                "The floral shirt",
+                "Replace the floral shirt with an ill-fitting business suit."
+            ]
+        },
+        {
+            "Effect": "Some factual information depicted in the image changes",
+            "Change Target": "Humans",
+            "Explanation": [
+                "The bear",
+                "Change the bear into a large poodle, dyed brown."
+            ]
+        }
+    ]
+}

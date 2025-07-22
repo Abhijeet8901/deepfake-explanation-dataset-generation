@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in red and yellow cycling outfit riding the stationary bike",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in red and yellow cycling outfit riding the stationary bike",
+                "adjust his facial expression to wide-eyed with a slight smile and mouth slightly open, as if full of wonder or curiosity"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in red and yellow cycling outfit riding the stationary bike",
+                "adjust his posture to be more relaxed, with a casual gaze off to the side and slight slouch in his shoulders"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in red and yellow cycling outfit riding the stationary bike",
+                "adjust his facial expression to include a confident smile and slightly lifted chin, with chest out"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in red and yellow cycling outfit riding the stationary bike",
+                "adjust his facial expression to a furrowed brow and slight frown, with eyes looking downward"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in red and yellow cycling outfit riding the stationary bike",
+                "alter his posture to appear awkward on the bike, with hands gripping handlebars uncertainly and feet not aligned with pedals properly"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "logo text on the man\u2019s cycling jersey",
+                "replace current sponsor logo text (e.g., 'PowerBar') with 'BeginnerCyclist'"
+            ]
+        }
+    ]
+}

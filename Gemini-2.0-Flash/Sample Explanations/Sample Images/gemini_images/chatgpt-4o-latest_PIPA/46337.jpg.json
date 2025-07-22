@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the woman in the navy blue shirt with a name tag, standing in the center and talking to a group",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the navy blue shirt",
+                "adjust facial expression to a wide-eyed look with a slight, uncertain smile and tilt her head slightly to the side"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the navy blue shirt",
+                "alter posture to a relaxed slouch with one hand in pocket and modify facial expression to a casual smirk"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the navy blue shirt",
+                "adjust posture to an upright stance with hands confidently on hips and a slight smile of satisfaction"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the navy blue shirt",
+                "change facial expression to downcast eyes and a slight frown; adjust hands to be clasped in front of her"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the woman in the navy blue shirt",
+                "replace name tag with a handwritten, crooked one that says 'Trainee' and add visible nervous body language, like fidgeting"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the timeline text on the display board labeled 'Milestones: 2000s'",
+                "replace a photo and text showing a major project success with one showing a startup failure and update the label to 'Early Setbacks'"
+            ]
+        }
+    ]
+}

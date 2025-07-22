@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The batter",
+      "explanation": "The batter's posture looks stiff, like a toy soldier that's been posed. It's like someone stuck him there, but he doesn't quite fit into the action."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The batter likely had a more natural, bent-over posture ready to swing. His body would be in a position that looks more like he's putting power into the swing."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Return to a more bent-over and dynamic posture.",
+    "Change Target": "human",
+    "Explanation": [
+      "The batter",
+      "Bend the batter at the waist, angle his body forward more, and increase the angle of the elbow of his upper arm."
+    ]
+  }
+}

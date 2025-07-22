@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man in the checkered shirt",
+      "explanation": "The man is standing up straight, but he's supposed to be sad and slumped over. It's like he's trying to look sad, but he forgot to change how he's standing."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man in the checkered shirt likely had a normal, upright posture."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the man's posture and remove the added tear.",
+    "Change Target": "human",
+    "Explanation": [
+      "The man in the checkered shirt",
+      "Remove the tear from his cheek and change his posture back to an upright stance."
+    ]
+  }
+}

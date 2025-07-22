@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "man in the suit holding a book and talking to the woman",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the suit holding a book and talking to the woman",
+                "modify facial expression to wide eyes and slightly open mouth, add a tilt to the head to convey curiosity or innocence"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the suit holding a book and talking to the woman",
+                "change posture to casual stance with one hand in pocket, adjust facial expression to a relaxed, uninterested look"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the suit holding a book and talking to the woman",
+                "adjust posture to an upright stance with chin slightly raised and a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the suit holding a book and talking to the woman",
+                "modify facial expression to include furrowed brows and downcast eyes, add a slight slump to the shoulders"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "man in the suit holding a book and talking to the woman",
+                "adjust body language to show nervousness, such as fidgeting hands or awkward posture, and make the suit slightly ill-fitting"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "paper on the table",
+                "replace existing text on the visible document with 'Certificate of Achievement - Awarded to Anna Svensson, 2025'"
+            ]
+        }
+    ]
+}

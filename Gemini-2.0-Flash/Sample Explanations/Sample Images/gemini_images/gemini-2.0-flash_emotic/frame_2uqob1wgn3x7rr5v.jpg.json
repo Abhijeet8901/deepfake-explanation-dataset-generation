@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The girl on the bicycle",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "The girl on the bicycle",
+                "Add a cartoonish flower to the helmet of the girl on the bicycle."
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "The girl on the bicycle",
+                "Make the girl on the bicycle wearing sunglasses and chewing a bubble gum."
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "The girl on the bicycle",
+                "Add a blue winner ribbon on the girl's bicycle handle."
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "objects",
+            "Explanation": [
+                "The soccer ball",
+                "Show the soccer ball as broken with some air leaking."
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "The girl on the bicycle",
+                "Make the girl on the bicycle fall off the bicycle. "
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "House color",
+                "Make the house turn into pink."
+            ]
+        }
+    ]
+}

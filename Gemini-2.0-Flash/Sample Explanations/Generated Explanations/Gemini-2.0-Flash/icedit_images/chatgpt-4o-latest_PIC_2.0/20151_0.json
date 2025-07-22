@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The man's mouth",
+      "explanation": "The man's mouth looks like a sticker was placed over his face. It looks too wide for his face and doesn't match the rest of his serious expression. It's like putting a happy face on a grumpy person – it just doesn't fit."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The man's mouth would likely have a more natural and subtle expression, fitting with the rest of his face."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Restores a more natural facial expression",
+    "Change Target": "human",
+    "Explanation": [
+      "The man's mouth",
+      "Reduce the size and curvature of the smile to appear more subtle and natural."
+    ]
+  }
+}

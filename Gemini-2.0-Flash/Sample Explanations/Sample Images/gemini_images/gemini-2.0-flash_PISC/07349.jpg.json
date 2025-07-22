@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the batter",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "the batter",
+            "Explanation": [
+                "the batter's face",
+                "Add a slightly open-mouthed expression and wide eyes."
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "the batter",
+            "Explanation": [
+                "the batter's posture",
+                "straighten the batter, remove the tension by straightening his elbow and reducing the bend in his waist."
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "the batter",
+            "Explanation": [
+                "the batter's expression",
+                "Add a slight smile to the batter's face and an upward tilt to his head."
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "the batter",
+            "Explanation": [
+                "the batter's face",
+                "Add a frown to the batter's face and a downward cast to his eyes."
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "the batter",
+            "Explanation": [
+                "the batter",
+                "Change the batter's helmet to be slightly crooked."
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "the batter's jersey",
+            "Explanation": [
+                "the batter's jersey",
+                "change the batter's red jersey to blue"
+            ]
+        }
+    ]
+}

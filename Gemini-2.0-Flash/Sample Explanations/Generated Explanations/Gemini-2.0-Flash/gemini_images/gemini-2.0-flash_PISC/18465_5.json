@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The bottles on the table",
+      "explanation": "There are two new bottles on the table that look out of place because they are much brighter and more colorful than everything else in the picture. They look like stickers that were just placed there."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The bottles on the table would likely have a more subdued appearance, fitting in with the overall color scheme of the scene."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the changes made to the bottles on the table.",
+    "Change Target": "Objects",
+    "Explanation": [
+      "The bottles of energy drink on the table.",
+      "Replace the bottles of energy drink with the original water bottle."
+    ]
+  }
+}

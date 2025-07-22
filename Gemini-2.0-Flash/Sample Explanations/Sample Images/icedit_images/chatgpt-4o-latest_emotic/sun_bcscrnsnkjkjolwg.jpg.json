@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "girl in the foreground wearing a white top with black accents and holding a mini-golf club",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "girl in the foreground wearing a white top",
+                "adjust her facial expression to show wide-eyed curiosity and a slight open-mouth expression"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "girl in the foreground wearing a white top",
+                "modify her posture to be more relaxed with one hand in pocket and a slight smirk"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "girl in the foreground wearing a white top",
+                "raise her chin slightly, add a confident smile, and depict her looking at a successful putt"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "girl in the foreground wearing a white top",
+                "make her facial expression somber, with eyes cast downward and slumped shoulders"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "girl in the foreground wearing a white top",
+                "show her holding the golf club with both hands incorrectly and looking confused at the ball"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "golf ball in front of the girl in white top",
+                "change its color from yellow to red"
+            ]
+        }
+    ]
+}

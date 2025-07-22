@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The text on the punching bag",
+      "explanation": "The word on the punching bag looks blurry and doesn't match the crispness of the rest of the bag. It's like someone stuck a low-quality sticker on it."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The punching bag would have a clear, sharp word printed on it that matches the quality of the rest of the bag."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the text on the punching bag to its original appearance.",
+    "Change Target": "text",
+    "Explanation": [
+      "The text 'FIGHTTECH' on the punching bag.",
+      "Change the text on the punching bag from 'FIGHTTECH' back to 'CENTURY', ensuring it is clear and matches the original style and font."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The girl on the scooter's face",
+      "explanation": "The girl's face on the scooter has a cartoon flower on it. It looks like a sticker was placed on her face, but it doesn't match the rest of the real-looking photo."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The girl's face on the scooter likely looked like a normal photograph of a person's face, without any cartoonish additions."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Remove cartoon filter",
+    "Change Target": "human",
+    "Explanation": [
+      "The girl on the scooter's face",
+      "Remove the cartoon flower from the girl's face on the scooter."
+    ]
+  }
+}

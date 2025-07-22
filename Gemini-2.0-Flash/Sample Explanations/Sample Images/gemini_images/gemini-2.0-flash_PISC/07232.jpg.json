@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in the light blue suit",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "objects",
+            "Explanation": [
+                "the teddy bear",
+                "Replace the teddy bear with a pacifier or a baby rattle."
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "objects",
+            "Explanation": [
+                "the knife",
+                "Replace the knife with a feather duster."
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "objects",
+            "Explanation": [
+                "the cake",
+                "Replace the wedding cake with a science fair award trophy."
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "objects",
+            "Explanation": [
+                "the cake",
+                "Add a layer of burnt icing to the cake."
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "humans",
+            "Explanation": [
+                "the man in the light blue suit",
+                "Add chocolate stains around his mouth and on his clothing."
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "objects",
+            "Explanation": [
+                "the wedding cake",
+                "Replace the wedding cake with a birthday cake."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "chef in white uniform and white hat standing behind the sushi counter on the right",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "chef in white uniform and white hat on the right",
+                "adjust facial expression to wide eyes with slightly raised eyebrows and a small open mouth"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "chef in white uniform and white hat on the right",
+                "alter posture to a relaxed stance with one hand in pocket and an uninterested facial expression"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "chef in white uniform and white hat on the right",
+                "adjust pose to standing up straight with hands on hips and a confident facial expression"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "chef in white uniform and white hat on the right",
+                "change facial expression to downcast eyes, furrowed brows, and slightly pursed lips"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "chef in white uniform and white hat on the right",
+                "add a training badge or label like 'trainee' to his uniform and have him clumsily holding a sushi knife"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "restaurant menu text at the bottom left",
+                "replace existing dish names with futuristic or fictional food items such as 'Synth Salmon Roll' and 'Neon Tuna Tempura'"
+            ]
+        }
+    ]
+}

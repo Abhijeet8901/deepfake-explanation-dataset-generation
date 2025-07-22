@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the elderly woman behind the counter arranging bread",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the elderly woman behind the counter",
+                "adjust her facial expression to wide eyes and a slight open-mouthed smile, suggesting curiosity or surprise"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the elderly woman behind the counter",
+                "alter her facial expression to a relaxed, neutral look and shift her posture to leaning slightly to one side"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the elderly woman behind the counter",
+                "modify her expression to a slight smile with chin raised and hands on hips"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the elderly woman behind the counter",
+                "adjust her expression to a downturned mouth, lowered eyes, and slouched shoulders"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the elderly woman behind the counter",
+                "change her pose to show fumbling with bread or looking uncertainly at a loaf"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the sign reading 'Le pain de 400g'",
+                "replace with 'Le pain de 250g' to indicate a different bread weight"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The skateboarder's posture",
+      "explanation": "The skateboarder looks like a toy figure that someone posed in mid-air. His arms and legs are frozen in a strange position, not like how people usually move when they are skateboarding."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The skateboarder likely had a more natural and dynamic posture that matched the motion of the skateboard, with his arms and legs positioned in a way that looks like he is actually moving and controlling the board."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Restore natural skateboarding posture",
+    "Change Target": "Human",
+    "Explanation": [
+      "The skateboarder",
+      "Readjust the skateboarder's body to a more extended and active posture."
+    ]
+  }
+}

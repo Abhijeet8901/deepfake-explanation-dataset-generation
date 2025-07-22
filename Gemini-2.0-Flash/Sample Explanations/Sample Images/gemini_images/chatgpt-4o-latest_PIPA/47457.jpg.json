@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the bald man wearing glasses and a gray suit shaking hands in the center-left foreground",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the bald man wearing glasses and a gray suit",
+                "Adjust facial expression to wide eyes and a slightly open-mouthed smile, and tilt the head slightly to one side"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the bald man wearing glasses and a gray suit",
+                "Adjust facial expression to neutral or mildly disinterested with raised eyebrows and relaxed posture"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the bald man wearing glasses and a gray suit",
+                "Adjust facial expression to a slight confident smile, lift chin slightly, and puff chest outward"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the bald man wearing glasses and a gray suit",
+                "Adjust facial expression to slightly furrowed brows, downturned mouth, and cast eyes downward"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the bald man wearing glasses and a gray suit",
+                "Adjust posture to less confident stance with slouched shoulders and more hesitant handshake"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the 'Intel' logo on the blue background",
+                "Replace text 'Intel' with 'AMD'"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The cake",
+      "explanation": "The decorations on the cake, like the Maryland flag and the police badge, look like they were cut out of magazines and glued to the cake. They don't look like they are made of frosting like the rest of the cake."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The cake would have consistent decorations made from frosting, like the rest of the cake. The Maryland flag, handcuffs, and police badge would also be made of frosting."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the cake decorations to their original form.",
+    "Change Target": "object",
+    "Explanation": [
+      "The decorations on the cake.",
+      "Replace the cake decorations with their original appearance, including the Maryland flag, the handcuffs, and the police badge. Ensure all elements appear to be made of frosting."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The hiker on the right",
+      "explanation": "The hiker has new, clean boots that look like they just came from the store because they are so clean and shiny. When you go hiking, your boots get dirty."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The hiker on the right would have worn hiking boots that looked used and dirty, showing that they had been worn on a hike before."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Revert the hiker's footwear to appropriate hiking gear.",
+    "Change Target": "human",
+    "Explanation": [
+      "The hiker on the right's boots",
+      "Change the hiker's boots to used, appropriate hiking boots with dirt and wear."
+    ]
+  }
+}

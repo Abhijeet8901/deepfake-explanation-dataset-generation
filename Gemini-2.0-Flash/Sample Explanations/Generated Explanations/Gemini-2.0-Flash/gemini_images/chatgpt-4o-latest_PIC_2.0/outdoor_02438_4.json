@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman",
+      "explanation": "The woman is holding her arms straight out to the sides, and the man is holding her arms. It looks like she doesn't know how to balance and needs help. It makes her look stiff and unnatural, like a toy being held up."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman's arms would be relaxed and in a natural position for balancing."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Make the person appear more experienced and balanced.",
+    "Change Target": "human",
+    "Explanation": [
+      "The woman in blue with pink sunglasses",
+      "Adjust her arm posture to be more relaxed and natural, as if she is comfortable balancing."
+    ]
+  }
+}

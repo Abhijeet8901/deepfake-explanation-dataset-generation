@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the taller man on the right wearing a backpack",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the taller man on the right",
+                "adjust facial expression to wide-eyed with raised eyebrows and a slight open-mouth smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the taller man on the right",
+                "adjust posture to slouched shoulders and add a hand in his pocket"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the taller man on the right",
+                "adjust posture to stand upright with chest out and chin slightly raised"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the taller man on the right",
+                "adjust facial expression to downcast eyes with a frown and slightly hunched shoulders"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the taller man on the right",
+                "add a tourist map in his hand and change shirt to one with a large tourist logo"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "the tall ruined structure",
+                "digitally restore one wall section to look newly rebuilt with fresh stucco and paint"
+            ]
+        }
+    ]
+}

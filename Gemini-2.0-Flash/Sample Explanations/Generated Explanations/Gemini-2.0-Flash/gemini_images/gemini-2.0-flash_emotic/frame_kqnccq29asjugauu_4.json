@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman's face and hands",
+      "explanation": "The woman has colorful paint smudges on her face and hands, but they look like stickers that were just put on. They don't blend in naturally like real paint smudges would when someone is actually working with paint."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman's face and hands likely appeared clean, without any obvious paint smudges or clumsiness."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Remove paint smudges.",
+    "Change Target": "human",
+    "Explanation": [
+      "the woman's face and hands",
+      "Remove the paint smudges from the woman's face and hands."
+    ]
+  }
+}

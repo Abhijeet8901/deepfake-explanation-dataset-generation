@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in the dark suit receiving the bassoon",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the dark suit",
+                "Modify facial expression to wide-eyed surprise and slightly open mouth"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the dark suit",
+                "Adjust posture to a relaxed stance with one hand in his pocket and a slight smirk"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the dark suit",
+                "Change expression to a confident smile and adjust posture to standing upright with chest slightly out"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the dark suit",
+                "Alter facial expression to lowered eyes and a subtle frown"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the dark suit",
+                "Adjust body language to show hesitation, such as uncertain hand positioning or slouched shoulders"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "the bassoon being handed to the man",
+                "Replace the bassoon with a violin"
+            ]
+        }
+    ]
+}

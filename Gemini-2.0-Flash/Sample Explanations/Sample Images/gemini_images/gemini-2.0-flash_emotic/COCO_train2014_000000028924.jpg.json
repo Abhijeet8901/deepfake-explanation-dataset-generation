@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "The tennis player",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "The player's facial expression",
+            "Explanation": [
+                "The player's facial expression",
+                "Change the player's facial expression to look like she is smiling innocently and confusedly at the tennis ball."
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "The player's body language",
+            "Explanation": [
+                "The player's body language",
+                "Change the player's posture so that she is more relaxed and less focused on the ball. For example, her arm swing could be less forceful and her stance more casual."
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "The player's facial expression",
+            "Explanation": [
+                "The player's facial expression",
+                "Change the player's facial expression to look like she is smiling confidently at the audience."
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "The player's facial expression",
+            "Explanation": [
+                "The player's facial expression",
+                "Change the player's facial expression to look like she is frowning sadly at the ground."
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "The player's technique",
+            "Explanation": [
+                "The player's tennis technique",
+                "Make the player's swing look awkward and clumsy. For example, her stance could be unbalanced or her grip on the racket could be incorrect."
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "Text on the tennis racket",
+            "Explanation": [
+                "The text on the tennis racket",
+                "Replace the brand name 'HEAD' with 'Wilson'."
+            ]
+        }
+    ]
+}

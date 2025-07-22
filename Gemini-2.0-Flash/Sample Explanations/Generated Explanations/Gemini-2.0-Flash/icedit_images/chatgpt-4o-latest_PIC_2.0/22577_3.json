@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The boy's face",
+      "explanation": "The boy's face looks strange because he looks angry, but it seems like he should be focused on kicking the ball really hard. It's like someone put a sticker of an angry face on him."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The boy's face probably looked like he was trying really hard to kick the ball, like he was concentrating on what he was doing."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Return to focused expression",
+    "Change Target": "human",
+    "Explanation": [
+      "boy in blue sports jersey kicking the ball",
+      "adjust facial expression to focused with determined eyes"
+    ]
+  }
+}

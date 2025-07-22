@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The girl playing mini golf",
+      "explanation": "The girl looks like she's never played golf before. Her grip on the club looks awkward and stiff, like she's holding it too tight and doesn't know what to do. It's like she's trying to hold a toy she's never seen before."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The girl would likely have a more natural and comfortable grip on the golf club, and she would be looking at the ball with a bit more confidence or concentration."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Make the girl look like she knows how to play golf.",
+    "Change Target": "human",
+    "Explanation": [
+      "The girl in the foreground holding the golf club",
+      "Show her holding the golf club with a proper grip and looking at the ball with focused attention."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The woman on the right",
+      "explanation": "The woman on the right looks like she's sitting very straight and proper, like a toy soldier. It looks a little stiff and unnatural, like she's trying too hard to sit up straight."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The woman on the right likely had a more relaxed posture, perhaps leaning slightly forward or to the side, looking more comfortable and natural."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Relax the woman's posture",
+    "Change Target": "human",
+    "Explanation": [
+      "The woman on the right wearing white and glasses",
+      "Adjust her posture to sitting with a slight slouch and a neutral facial expression."
+    ]
+  }
+}

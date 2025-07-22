@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the man in the white lab coat behind the counter",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the white lab coat behind the counter",
+                "alter his facial expression to show wide, curious eyes and a slightly open mouth; adjust posture to lean slightly forward in a hesitant manner"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the white lab coat behind the counter",
+                "change facial expression to a relaxed or indifferent look; adjust posture to a slouched stance with one hand casually in his pocket"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the white lab coat behind the counter",
+                "adjust facial expression to a slight smile with a raised chin; position body to stand upright with hands confidently on the counter"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the white lab coat behind the counter",
+                "modify facial expression to include furrowed eyebrows and downcast eyes; adjust his posture to a slightly hunched position with hands clasped in front"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the man in the white lab coat behind the counter",
+                "add a visible name tag with 'Trainee Pharmacist'; modify facial expression to look uncertain, and make his hand gesture less confident"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "text",
+            "Explanation": [
+                "the illuminated sign that reads 'APOTHEKE'",
+                "replace the text with 'CLINIC' to change the setting from a pharmacy to a medical clinic"
+            ]
+        }
+    ]
+}

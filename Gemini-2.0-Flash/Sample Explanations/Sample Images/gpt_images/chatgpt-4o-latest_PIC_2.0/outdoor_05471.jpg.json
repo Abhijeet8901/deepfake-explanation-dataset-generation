@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "the girl in the center",
+    "Effects": [
+        {
+            "Effect": "the person you identified appears naive",
+            "Change Target": "human",
+            "Explanation": [
+                "the girl in the center",
+                "widen her eyes and add a subtle, open-mouthed smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "the girl in the center",
+                "adjust her facial expression to a relaxed, indifferent look with slightly raised eyebrows and a tilted head"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears proud",
+            "Change Target": "human",
+            "Explanation": [
+                "the girl in the center",
+                "make her stand slightly taller with her chin raised and a confident smile"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "the girl in the center",
+                "lower her gaze, add a slight frown, and tilt her head downward"
+            ]
+        },
+        {
+            "Effect": "the person you identified appears inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "the girl in the center",
+                "add timid body language, such as hunched shoulders and an uncertain expression"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "objects",
+            "Explanation": [
+                "glasses of water",
+                "replace the water in the glasses with orange juice"
+            ]
+        }
+    ]
+}

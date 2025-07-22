@@ -1,0 +1,19 @@
+{
+  "manipulation_analysis": [
+    {
+      "manipulated_entity": "The pharmacist",
+      "explanation": "The pharmacist is holding a paper, but it looks like the paper is floating in his hand and doesn't quite match the way he is holding it. It's like sticking a picture of a paper on top of his hand."
+    }
+  ],
+  "inferred_original_state": {
+    "description": "The pharmacist would be holding the paper in a way that looks natural, with his fingers securely grasping it."
+  },
+  "inverse_edit_instructions": {
+    "Effect": "Make the pharmacist's hand gesture more natural.",
+    "Change Target": "human",
+    "Explanation": [
+      "The pharmacist's hand and paper",
+      "Adjust the pharmacist's hand and fingers so that he is holding the paper in a realistic and natural way."
+    ]
+  }
+}

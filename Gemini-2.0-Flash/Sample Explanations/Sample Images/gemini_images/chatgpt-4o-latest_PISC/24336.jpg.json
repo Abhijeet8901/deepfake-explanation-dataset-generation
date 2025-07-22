@@ -1,0 +1,53 @@
+{
+    "Most Important Person": "person in midair wearing a gray shirt and black pants attempting to catch the frisbee",
+    "Effects": [
+        {
+            "Effect": "naive",
+            "Change Target": "human",
+            "Explanation": [
+                "person in midair wearing a gray shirt and black pants",
+                "adjust facial expression to wide-eyed with an open mouth and slightly raised eyebrows to convey wonder or inexperience"
+            ]
+        },
+        {
+            "Effect": "nonchalant",
+            "Change Target": "human",
+            "Explanation": [
+                "person in midair wearing a gray shirt and black pants",
+                "adjust facial expression to neutral or slightly indifferent, and relax the arm and hand reaching for the frisbee"
+            ]
+        },
+        {
+            "Effect": "proud",
+            "Change Target": "human",
+            "Explanation": [
+                "person in midair wearing a gray shirt and black pants",
+                "adjust posture to be more upright with chest out and a confident slight smile on the face"
+            ]
+        },
+        {
+            "Effect": "remorseful",
+            "Change Target": "human",
+            "Explanation": [
+                "person in midair wearing a gray shirt and black pants",
+                "alter facial expression to downturned eyes and mouth, with slouched shoulders as if regretting a missed catch"
+            ]
+        },
+        {
+            "Effect": "inexperienced",
+            "Change Target": "human",
+            "Explanation": [
+                "person in midair wearing a gray shirt and black pants",
+                "adjust body posture to appear awkward or unbalanced, and show hands improperly positioned to suggest unfamiliarity with catching a frisbee"
+            ]
+        },
+        {
+            "Effect": "some factual information depicted in the image changes",
+            "Change Target": "object",
+            "Explanation": [
+                "frisbee in the air",
+                "change the frisbee to a soccer ball to alter the context of the scene from ultimate frisbee to soccer"
+            ]
+        }
+    ]
+}
