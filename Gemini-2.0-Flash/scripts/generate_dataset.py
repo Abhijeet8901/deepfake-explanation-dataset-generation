@@ -5,11 +5,11 @@ from PIL import Image
 from process_mappings import run_processing
 from logging_utils import Logger
 
-MAPPING_FILE = Path("/media/main/Data/Abhijeet/Datasets/MultiFakeVerse/sample_mappings.json")
-RPM = 13
+MAPPING_FILE = Path("/media/main/Data/Abhijeet/Datasets/MultiFakeVerse/image_mappings.json")
+RPM = 1900
 MAX_CONCURRENT = 200
-SUCCESS_LOG_INTERVAL = 10
-PROMPT_TEMPLATE = "gemini_prompt_mark_3" 
+SUCCESS_LOG_INTERVAL = 1000
+PROMPT_TEMPLATE = "gemini_prompt_mark_5" 
 
 async def main():
     logger = Logger()

@@ -41,6 +41,10 @@ async def process_entry(entry: dict, limiter: AsyncRateLimiter, prompt_template:
         effects = json.loads(Path(entry["edit_suggestion_path"])
                         .read_text(encoding="utf-8"))["Effects"]
         effect = effects[entry["image_index"]]
+        if(int(prompt_template.split("_")[-1])>=4):
+            effect = {
+                "Explanation": effect["Explanation"]
+            }  
 
     except Exception as e:
         logger.log_failure(entry, f"File load error: {e}")

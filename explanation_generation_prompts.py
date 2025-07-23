@@ -209,6 +209,183 @@ PROMPTS = {
         ```json
         $effect_json
         """
-    )
+    ),
+    "gemini_prompt_mark_4": Template("""
+        You are an expert image analyst, a "Digital Detective." Your specialty is spotting image manipulations and explaining them in a way a five-year-old can understand, without any technical jargon. You also know how to reverse the editing process.
+
+        Your task is to analyze an edited image and produce a structured JSON output. You will be given an original image, an edited image, and the instruction used for the edit.
+
+        Your analysis must be objective and produce high-quality, self-contained data.
+        Here are the inputs I will provide:
+        [Original Image]: The image before any changes were made.
+        [Edited Image]: The image after the edits were applied.
+        [Original Edit Instruction] (JSON format): The JSON object explaining the edits that were performed. The format of the json would be - 
+        {
+            "Explanation": 
+          [
+                <referring expression for an entity that has been changed>,
+                <edit instruction describing the change supposedly made>
+            ]
+        }
+
+        Your Mission:
+        Produce a single, valid JSON object as output. Do not include any text or explanations outside of this JSON.
+        Guiding Principles & Rules:
+        Master Rule: Trust the Visual Evidence Above All Else.
+        Your primary source of truth is the visual difference between the [Original Image] and the [Edited Image]. The [Original Edit Instruction] is only a clue and might be inaccurate or misleading. If the text instructions contradict what you see in the images, your entire output—all three parts—MUST be based on the visual evidence alone.
+
+        The output would have three parts as follows: 
+
+        Part 1: Manipulation Analysis (manipulation_analysis)
+        a) High-Level Entity(ies) Identification: Identify the primary entity(ies) that were manipulated. Use the Explanation array in the [Original Edit Instruction] as a clue to find these entity(ies). However, your final manipulated entity(ies) must describe the entity(ies) you actually see being manipulated in the images entity(ies) should describe the entity(ies) at a high level (e.g., "the badminton player," "the red car," "the storefront sign"), not a specific sub-part (e.g., "the player's smile," "the car's front tire").
+
+        b) Explain Why It Looks Out of Place: Your goal is to explain why the manipulated part doesn't fit with the rest of the picture. Find a simple, common-sense reason it looks fake.
+        To do this, look for a mismatch. Here are some types of mismatches to look for:
+        Does it follow the rules of the world? (e.g., Do people leave footprints in sand? Do things cast shadows? Do reflections look right?)
+        Does it make sense for the situation? (e.g., Are they wearing the right clothes for the weather? Does their expression match the action?)
+        Does it look like it belongs? (e.g., Does one part look like a cartoon while the rest looks real? Does one part look brand new while everything else is old and dusty?)
+        You only need to find one good reason for each identified entity. Pick the clearest and simplest one.
+        Explain your reason simply, as if talking to a child. You can use an analogy (like comparing it to a sticker or a toy) if it helps, but a clear, simple observation is also perfect.
+        GOOD EXAMPLE (Rules of the World): "A person is standing on a sandy beach, but their feet aren't sinking into the sand at all and they don't have any footprints behind them. It looks like they are floating on top of the sand, which doesn't happen in real life."
+        GOOD EXAMPLE (Situation): "A man is wearing a big, thick winter coat and a wool hat, but he is standing on a sunny beach with palm trees. This doesn't make sense because people wear swimsuits at the beach, not winter clothes."
+        GOOD EXAMPLE (Visuals): "There is a fluffy, cartoon-style cat sitting in a field of real grass. The cat looks like it came from a TV show, while the grass looks like a real photograph. The two styles don't match."
+        BAD EXAMPLE: "The cat looks fake." (This doesn't explain why it looks fake).
+
+        Independent Analysis: Your entire explanation must be based on analyzing the [Edited Image] by itself. The [Original Image] serves only as a behind-the-scenes reference for you to identify what was changed. You must never mention, compare to, or allude to the original image in your explanation. Your analysis should read as if you have never seen the original.
+
+        Part 2: Inferred Original State (inferred_original_state) 
+        Describe the "Correct" Version: Based on the mismatch you found in Part 1, now describe what the scene would likely look like if it were natural and believable.
+        This is a Description, Not a Command: You are describing a state, not telling someone what to do. Your description should logically "fix" the problem you identified.
+        Example: If you found that a person's smiling face didn't match their focused body during a sport, the inferred state would describe a focused face. If you found a winter coat on a beach, the inferred state would describe beach-appropriate clothing.
+
+        Part 3: Inverse Instruction (inverse_edit_instruction)
+        Goal-Oriented Instruction: Look at the [Edited Image] and the [Original Image]. Your goal is to write a clear, actionable command that describes the visual transformation required to convert the [Edited Image] into the [Original Image].
+        Visual, Not Textual, Reversal: Do not simply rephrase or invert the text from the [Original Edit Instruction]. Base your new instruction on the actual visual changes you observe between the two images as identified in the manipulated entities in Part 1 above.
+        Self-Contained Command: The generated instruction must be standalone. It should not mention the original image file or the original instructions in its text. The command should be understandable on its own.
+
+        Required Output Format:
+        Your entire output must be the following JSON structure.
+
+        {
+          "manipulation_analysis": [
+            {
+              "manipulated_entity_1": "The high-level entity that was changed.",
+              "explanation_1": "Your simple, analogy-based explanation of why the entity looks unnatural in the edited image."
+            },
+          {
+              "manipulated_entity_2": "The high-level entity that was changed.",
+              "explanation_2": "Your simple, analogy-based explanation of why the entity looks unnatural in the edited image."
+            },
+          ...
+          ],
+          "inferred_original_state": {
+            "description": "A simple, common-sense description of what the manipulated entity likely looked like in a natural, unedited state."
+          },
+          "inverse_edit_instruction": "A precise, self-contained and detailed instrucion to change the edited image back to its original state."
+        }
+
+
+        Here are my inputs:
+
+        **[Original Image]:**
+        The FIRST image I uploaded
+
+        **[Edited Image]:**
+        The SECOND image I uploaded
+
+        **[Edit Instructions JSON]:**
+        ```json
+        $effect_json
+        """
+  ),
+  "gemini_prompt_mark_5": Template("""
+        You are an expert image analyst, a "Digital Detective." Your specialty is spotting image manipulations and explaining them in a way a five-year-old can understand, without any technical jargon. You also know how to reverse the editing process.
+
+        Your task is to analyze an edited image and produce a structured JSON output. You will be given an original image, an edited image, and the instruction used for the edit.
+
+        Your analysis must be objective and produce high-quality, self-contained data.
+        Here are the inputs I will provide:
+        [Original Image]: The image before any changes were made.
+        [Edited Image]: The image after the edits were applied.
+        [Original Edit Instruction] (JSON format): The JSON object explaining the edits that were performed. The format of the json would be - 
+        {
+            "Explanation": 
+          [
+                <referring expression for an entity that has been changed>,
+                <edit instruction describing the change supposedly made>
+            ]
+        }
+
+        Your Mission:
+        Produce a single, valid JSON object as output. Do not include any text or explanations outside of this JSON.
+        Guiding Principles & Rules:
+        Master Rule: Trust the Visual Evidence Above All Else.
+        Your primary source of truth is the visual difference between the [Original Image] and the [Edited Image]. The [Original Edit Instruction] is only a clue and might be inaccurate or misleading. If the text instructions contradict what you see in the images, your entire output—all three parts—MUST be based on the visual evidence alone.
+
+        The output would have three parts as follows: 
+
+        Part 1: Manipulation Analysis (manipulation_analysis)
+        a) High-Level Entity(ies) Identification: Identify the entity(ies) that were manipulated. Use the Explanation array in the [Original Edit Instruction] as a clue to find these entity(ies), and also refer to the visual comparison between the [Original Image] and the [Edited Image]. Your final manipulation_analysis must contain all the entity(ies) you actually see being manipulated in the images and should describe them at a high level (e.g., "the badminton player," "the red car," "the storefront sign"), not a specific sub-part (e.g., "the player's smile", "the player's shirt", "the car's front tire", etc.).
+        Group All Changes to a Single Entity: This is a critical rule. If you see multiple changes on one person (e.g., their eyes, posture, and shirt are all changed), you must not create three separate entries. Instead, create a single entry for "the person" and list all the reasons it looks fake in its explanation. The goal is to identify the main "thing" that was edited, not every little part.
+
+        b) Explain Why It Looks Out of Place: Your goal is to explain why the manipulated part doesn't fit with the rest of the picture. Find a simple, common-sense reason it looks fake.
+        To do this, look for a mismatch. Here are some types of mismatches to look for:
+        Does it follow the rules of the world? (e.g., Do people leave footprints in sand? Do things cast shadows? Do reflections look right?)
+        Does it make sense for the situation? (e.g., Are they wearing the right clothes for the weather? Does their expression match the action?)
+        Does it look like it belongs? (e.g., Does one part look like a cartoon while the rest looks real? Does one part look brand new while everything else is old and dusty?)
+        You only need to find one good reason for each identified entity. Pick the clearest and simplest one.
+        Explain your reason simply, as if talking to a child. You can use an analogy (like comparing it to a sticker or a toy) if it helps, but a clear, simple observation is also perfect.
+        GOOD EXAMPLE (Rules of the World): "A person is standing on a sandy beach, but their feet aren't sinking into the sand at all and they don't have any footprints behind them. It looks like they are floating on top of the sand, which doesn't happen in real life."
+        GOOD EXAMPLE (Situation): "A man is wearing a big, thick winter coat and a wool hat, but he is standing on a sunny beach with palm trees. This doesn't make sense because people wear swimsuits at the beach, not winter clothes."
+        GOOD EXAMPLE (Visuals): "There is a fluffy, cartoon-style cat sitting in a field of real grass. The cat looks like it came from a TV show, while the grass looks like a real photograph. The two styles don't match."
+        BAD EXAMPLE: "The cat looks fake." (This doesn't explain why it looks fake).
+
+        Independent Analysis: Your entire explanation must be based on analyzing the [Edited Image] by itself. The [Original Image] serves only as a behind-the-scenes reference for you to identify what was changed. You must never mention, compare to, or allude to the original image in your explanation. Your analysis should read as if you have never seen the original.
+
+        Part 2: Inferred Original State (inferred_original_state) 
+        Describe the "Correct" Version: Based on the mismatch you found in Part 1, now describe what the scene would likely look like if it were natural and believable.
+        This is a Description, Not a Command: You are describing a state, not telling someone what to do. Your description should logically "fix" the problem you identified.
+        Example: If you found that a person's smiling face didn't match their focused body during a sport, the inferred state would describe a focused face. If you found a winter coat on a beach, the inferred state would describe beach-appropriate clothing.
+
+        Part 3: Inverse Instruction (inverse_edit_instruction)
+        Goal-Oriented Instruction: Look at the [Edited Image] and the [Original Image]. Your goal is to write a clear, actionable command that describes the visual transformations required to convert the [Edited Image] into the [Original Image].
+        Visual, Not Textual, Reversal: Do not simply rephrase or invert the text from the [Original Edit Instruction]. Base your new instruction on the actual visual changes you observe between the two images.
+        Descriptive, Not Referential Command: This is the most important rule for this part. Your goal is to write a command that edits the [Edited Image] to achieve the plausible, natural state you described in Part 2.
+        You must NOT use words like "restore," "revert," "remove the edit," or "change back to original." These words are forbidden because they refer to a hidden source.
+        Instead, describe the target features. Your command must be a self-contained instruction that tells an AI what to create.
+        BAD EXAMPLE (Referential): "Remove the added smile and restore the woman's original focused face."
+        GOOD EXAMPLE (Descriptive): "Change the woman's facial expression from a smile to one of intense focus. Her eyes should be narrowed and her mouth should be set in a determined line, appropriate for a sports match."
+
+        Required Output Format:
+        Your entire output must be the following JSON structure.
+
+        {
+          "manipulation_analysis": [
+            {
+              "manipulated_entity": "The first high-level entity that was changed.",
+              "explanation": "Your simple, common-sense explanation for why this entity looks unnatural."
+            },
+          ...
+          ],
+          "inferred_original_state": {
+            "description": "A simple, common-sense description of what the manipulated entity likely looked like in a natural, unedited state."
+          },
+          "inverse_edit_instruction": "A precise, self-contained and detailed instrucion to change the edited image back to its original state."
+        }
+
+
+        Here are my inputs:
+
+        **[Original Image]:**
+        The FIRST image I uploaded
+
+        **[Edited Image]:**
+        The SECOND image I uploaded
+
+        **[Edit Instructions JSON]:**
+        ```json
+        $effect_json
+        """
+  )  
 
 }

@@ -10,6 +10,10 @@ from google.genai import types
 from google.api_core.exceptions import ResourceExhausted, ServiceUnavailable
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
 from explanation_generation_prompts import PROMPTS
+from dotenv import load_dotenv
+
+env_path = Path(__file__).resolve().parents[2] / ".env"
+load_dotenv(dotenv_path=env_path)
 
 client = genai.Client(api_key=os.getenv("GOOGLE_GENAI_BILLED_API_KEY"))
 MODEL = "gemini-2.0-flash"
