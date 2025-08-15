@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large golden statue of a dog on the shelf to the left, ensuring it casts a shadow consistent with the lighting.",
+    "remove_object": "Remove the bowl from the right bookshelf to create an empty space, keeping the lighting consistent.",
+    "replace_background": "Replace the background behind the group with a photorealistic image of a tropical beach, maintaining realistic depth of field.",
+    "style_material_change": "Change the tan coat of the man in the middle to be made of bright red velvet, keeping the original folds and shadows.",
+    "reflection_shadow_edit": "Add a clear reflection of the group on the floor, matching the angle and making it appear wet."
+  }
+}

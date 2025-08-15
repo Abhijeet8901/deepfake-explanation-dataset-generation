@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large, photorealistic parrot perched on the microphone stand in front of the singer.",
+    "remove_object": "Remove the glasses from the singer's face, ensuring the skin tone blends seamlessly.",
+    "replace_background": "Replace the dark background with a vibrant sunset scene, matching the lighting on the singer.",
+    "weather_time_change": "Add heavy rain to the scene, creating realistic reflections on the stage and blurring the background.",
+    "style_material_change": "Change the singer's white shirt to be made of a shimmering, reflective metallic fabric."
+  }
+}

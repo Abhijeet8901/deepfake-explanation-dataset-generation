@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large, photorealistic microphone stand on the left side of the table next to Cobie Smulders, casting a shadow on the tablecloth.",
+    "remove_object": "Remove the 'smartwater' bottle next to Neil Patrick Harris, ensuring the background remains seamless and no shadow artifacts are present.",
+    "replace_background": "Replace the 'Comic-Con' backdrop with a serene beach scene at sunset, matching the lighting and perspective.",
+    "weather_time_change": "Add heavy rain outside, with raindrops visible on the backdrop and a subtle, reflective sheen on the table surface.",
+    "duplication_scale": "Duplicate Cobie Smulders, scaling the new one to be smaller and positioned on top of her head like a fairy."
+  }
+}

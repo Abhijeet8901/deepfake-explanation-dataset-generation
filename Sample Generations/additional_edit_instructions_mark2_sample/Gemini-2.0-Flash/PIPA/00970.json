@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate, golden statue on the ground to the right of the last woman.",
+    "remove_object": "Remove the window with bars on the upper left side of the brick building.",
+    "replace_background": "Replace the sky in the background with a vibrant, colorful aurora borealis.",
+    "weather_time_change": "Change the sunny weather to a heavy rain with visible raindrops and puddles on the ground.",
+    "reflection_shadow_edit": "Add a faint reflection of the front four women on the brick wall as if it were wet."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, photorealistic camel behind the two men, making sure the scale matches the background.",
+    "remove_object": "Remove the rightmost man's crutch and add a faint motion blur to his leg suggesting movement.",
+    "replace_background": "Replace the background wall with a snow-covered mountain range, matching lighting.",
+    "weather_time_change": "Add heavy rainfall to the scene, adding water streaks on the wall and wet patches on the ground.",
+    "reflection_shadow_edit": "Add a faint, ghostly reflection of the two men onto the wet ground, respecting the lighting angle."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large potted plant on the left near the poster, casting a soft shadow on the floor.",
+    "remove_object": "Remove the security officer on the right, filling in the background with the existing wall texture.",
+    "replace_background": "Replace the background with a bustling city street scene, matching the lighting and perspective.",
+    "weather_time_change": "Add heavy rain streaks on the windows and reflections on the floor to simulate a downpour.",
+    "duplication_scale": "Duplicate the security officer on the left, scale him down, and place him in the background."
+  }
+}

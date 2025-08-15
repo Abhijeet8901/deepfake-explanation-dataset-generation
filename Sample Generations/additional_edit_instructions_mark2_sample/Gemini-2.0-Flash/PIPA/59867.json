@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a disco ball hanging from the center of the ceiling, reflecting light realistically onto the surrounding surfaces.",
+    "remove_object": "Remove the light fixture and emergency exit sign from the upper right corner of the black wall, seamlessly blending the wall.",
+    "replace_background": "Replace the background behind the two men with a bustling cityscape at night, maintaining the depth of field.",
+    "weather_time_change": "Add heavy rain and reflections to the ceiling, suggesting a stormy night outside the club.",
+    "style_material_change": "Change the material of the tank top on the left to appear as if it is made of shimmering gold fabric, respecting folds."
+  }
+}

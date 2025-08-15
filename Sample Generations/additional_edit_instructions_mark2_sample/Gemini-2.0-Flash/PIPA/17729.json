@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large potted plant with vibrant flowers on the left side of the table, casting a slight shadow on the table.",
+    "remove_object": "Remove the microphones from the table in front of the three people to create a clean surface.",
+    "replace_background": "Replace the background with a beach scene at sunset, ensuring the lighting matches the foreground.",
+    "weather_time_change": "Add heavy rain outside, creating blurred streaks on the backdrop as if seen through a window.",
+    "style_material_change": "Change the table's surface to a polished marble, reflecting light and matching the angle of view."
+  }
+}

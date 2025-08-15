@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, colorful beach ball floating near the top of the train car, casting a soft shadow on the wall.",
+    "remove_object": "Remove the metal pole in the middle of the train car, ensuring the background aligns realistically.",
+    "replace_background": "Replace the subway interior visible through the doorway with a desert landscape, matching the lighting.",
+    "weather_time_change": "Add heavy rain streaks on the subway car windows, reflecting streetlights with realistic diffusion.",
+    "reflection_shadow_edit": "Add a mirror reflection of the man on the opposite wall, respecting perspective and adding blur."
+  }
+}

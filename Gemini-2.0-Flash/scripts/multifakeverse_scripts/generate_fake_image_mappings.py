@@ -6,7 +6,7 @@ base_path = Path("/media/main/Data/Abhijeet/Datasets/MultiFakeVerse")
 real_images_path = base_path / "real_images"
 edit_suggestions_path = base_path / "edit_suggestions"
 generated_images_path = base_path / "generated_images"
-output_json_path = base_path / "image_mappings.json"
+output_json_path = base_path / "complete_mappings.json"
 
 # Init
 mappings = []

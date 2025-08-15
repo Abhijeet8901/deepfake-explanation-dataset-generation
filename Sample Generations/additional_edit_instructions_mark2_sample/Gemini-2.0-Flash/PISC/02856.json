@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "style_material_change": "Change the color and texture of the paddleboard on the left to resemble dark wood.",
+    "reflection_shadow_edit": "Add a clear reflection of the man in the black tank top to the water beneath him.",
+    "weather_time_change": "Change the sky to a dramatic sunset, casting warm orange light on the water and the men.",
+    "insert_object": "Insert a small, realistic dolphin leaping out of the water to the right of the paddle boarders.",
+    "remove_object": "Remove the bridge and the trees in the background of the image."
+  }
+}

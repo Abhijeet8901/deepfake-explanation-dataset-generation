@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate chandelier hanging from the center of the ceiling, casting realistic shadows.",
+    "remove_object": "Remove the flags and stands on the left side of the frame, blending the background seamlessly.",
+    "replace_background": "Replace the background visible through the windows with a tropical beach scene, matching light direction.",
+    "weather_time_change": "Add heavy rain streaks on the windows, darkening the room and creating reflections on surfaces.",
+    "style_material_change": "Change the material of the wooden desks to a vibrant, polished marble, reflecting light realistically."
+  }
+}

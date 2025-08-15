@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a dove flying near the singer's left shoulder, casting a subtle shadow on her dress.",
+    "replace_background": "Replace the dark stage background with a vibrant, photorealistic cityscape at dusk.",
+    "style_material_change": "Change the singer's black dress to a shimmering silver sequin gown, reflecting the stage lights.",
+    "physics_event": "Add a sudden burst of confetti raining down around the singer, realistically interacting with the light.",
+    "duplication_scale": "Duplicate the microphone in her hand and scale it down to miniature size, floating beside the original."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, photorealistic green dragon soaring through the sky just behind the building on the left.",
+    "remove_object": "Remove the street sign visible in the upper right corner of the frame, blending the background seamlessly.",
+    "replace_background": "Replace the existing background with a vibrant, photorealistic cityscape at sunset, matching the light angle.",
+    "weather_time_change": "Add heavy, swirling snow to the scene, making sure the flakes appear realistically sized and blurred with motion.",
+    "style_material_change": "Change the material of the closest drummer's helmet to gold, making it reflect the surrounding light realistically."
+  }
+}

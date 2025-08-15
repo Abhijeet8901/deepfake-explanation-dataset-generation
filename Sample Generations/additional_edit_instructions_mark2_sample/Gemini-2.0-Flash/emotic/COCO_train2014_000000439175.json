@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large chandelier hanging from the ceiling, ensuring the lighting reflects realistically on the people below.",
+    "remove_object": "Remove the pizza boxes from the table, making sure the underlying table texture is consistent with the surrounding area.",
+    "replace_background": "Replace the background seen through the doorway with a snowy mountain scene, matching the lighting and blurring appropriately.",
+    "weather_time_change": "Add heavy rain outside the windows, with realistic streaks and reflections on the glass.",
+    "style_material_change": "Change the material of the white shirt to a leather jacket, with appropriate folds and shine."
+  }
+}

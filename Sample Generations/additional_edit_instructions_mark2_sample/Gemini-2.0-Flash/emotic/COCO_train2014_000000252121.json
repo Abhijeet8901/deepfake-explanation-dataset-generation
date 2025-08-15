@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, colorful beach ball bouncing slightly behind the skateboarder, casting a subtle shadow on the road.",
+    "reflection_shadow_edit": "Add a longer, more dramatic shadow of the skateboarder stretching out horizontally on the road, respecting the sun's angle.",
+    "style_material_change": "Make the skateboard appear to be made of solid gold, reflecting the surrounding light realistically.",
+    "replace_background": "Replace the background with a photorealistic Martian landscape, complete with red sand and distant mountains.",
+    "physics_event": "Add a large dust cloud kicking up behind the skateboard, simulating a sudden brake or turn."
+  }
+}

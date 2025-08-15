@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a giant inflatable flamingo floating in the field, casting a shadow on the grass.",
+    "remove_object": "Remove the man swinging the bat, leaving an empty space in the field.",
+    "replace_background": "Replace the current grassy background with a photorealistic desert landscape at sunset, matching the original image's perspective.",
+    "weather_time_change": "Change the weather to a heavy snowfall, with snow accumulating on the grass and the man's shoulders.",
+    "style_material_change": "Change the grassy field to a field of chocolate brownies, maintaining the texture and volume of the original grass."
+  }
+}

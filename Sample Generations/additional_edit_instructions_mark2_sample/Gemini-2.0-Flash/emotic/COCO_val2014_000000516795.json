@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large baseball glove floating in the air behind the batter, casting a faint shadow.",
+    "remove_object": "Remove the umpire, leaving the background field undisturbed and the batter's focus unchanged.",
+    "replace_background": "Replace the baseball field background with a desert landscape, maintaining the original lighting.",
+    "weather_time_change": "Add heavy rain to the scene, with visible droplets and blurred background, reflecting light.",
+    "physics_event": "Show the baseball exploding upon being hit by the bat, with fragments scattering and motion blur."
+  }
+}

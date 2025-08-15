@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large chandelier hanging from the ceiling, reflecting light realistically.",
+    "remove_object": "Remove the pillar in the left of the scene to create more space, blending the background seamlessly.",
+    "replace_background": "Change the background visible through the doorway to a view of a snowy mountain range.",
+    "weather_time_change": "Add a heavy snowfall visible through the doorway in the background, with flakes landing on surfaces.",
+    "duplication_scale": "Duplicate the red lantern, shrinking it to half the size, and hang it next to the original."
+  }
+}

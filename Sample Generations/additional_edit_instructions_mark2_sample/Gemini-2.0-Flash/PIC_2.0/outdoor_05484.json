@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "replace_background": "Replace the grassy field background with a bustling city skyline, adding appropriate atmospheric perspective.",
+    "style_material_change": "Change the mother's white dress to a vibrant, flowing silk gown, realistically draped and shaded.",
+    "insert_object": "Insert a large, colorful hot air balloon floating in the sky behind the family, casting a faint shadow on the field.",
+    "weather_time_change": "Change the scene to a dramatic thunderstorm with dark clouds, heavy rain, and lightning in the background.",
+    "reflection_shadow_edit": "Add a long, distorted reflection of the family onto the ground as if it were a wet surface, matching the lighting."
+  }
+}

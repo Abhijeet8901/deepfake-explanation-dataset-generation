@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large stack of weights onto the weight rack behind the men, ensuring they appear to be realistically supported.",
+    "replace_background": "Replace the gym background with a snowy mountain landscape, maintaining consistent lighting and perspective.",
+    "reflection_shadow_edit": "Add a prominent reflection of the man exercising with the exercise ball to the gym's mirrored wall.",
+    "weather_time_change": "Change the image to a nighttime scene, with the window showing a heavy thunderstorm and dim indoor lighting.",
+    "style_material_change": "Change the exercise ball's material to clear glass, realistically refracting light and showing the floor behind it."
+  }
+}

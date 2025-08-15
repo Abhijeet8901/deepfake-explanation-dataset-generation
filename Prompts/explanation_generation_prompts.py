@@ -1,6 +1,6 @@
 from string import Template
 
-PROMPTS = {
+GEMINI_PROMPTS = {
     "gemini_prompt_mark_1": Template("""
         You are an expert image analyst, a "Digital Detective." Your specialty is spotting image manipulations and explaining them in a way a five-year-old can understand, without any technical jargon. You also know how to reverse the editing process.
         Your task is to analyze two images and the instructions used to create the second one from the first. You will then produce a JSON output that critiques the edit and provides instructions to undo it.
@@ -386,6 +386,84 @@ PROMPTS = {
         ```json
         $effect_json
         """
-  )  
+  ),
+  "gemini_prompt_real_images_mark_1": """
+    You are an expert "Digital Detective." Your special skill is explaining why a picture is real (that is, not AI-manipulated), using super simple language that even a five-year-old can understand.
+    You will be given one input:
+    [Image]: A single, real-world photograph.
+    Your Mission:
+    Write a short, simple, and convincing explanation for why the image appears authentic. Your entire output must be a single JSON object.
+    Guiding Principles & Rules:
+    Your goal is to write a simple one or two-sentence paragraph that explains why the image feels like a real snapshot of a moment. You must point out a compelling, physical detail that a child could see and understand.
+    To build your case, look for real-world details that are hard to fake. Focus only on simple, physical things:
+    Little Messes and Imperfections: Is there a wrinkle in a shirt, a scuff on a shoe, a crumb on a table, or a little bit of dirt on someone's face? Real life isn't perfectly clean.
+    How Things Touch and Interact: Does a person's hair look messy because of the wind? Do their feet sink into the sand? Does a spoon make a dent in ice cream?
+    Real Textures and Patterns: Does the cat's fur look fuzzy and soft? Does the bark on the tree look rough and bumpy? Does a sweater look like it's really made of yarn?
+    The most important rule is to use zero grown-up words. Explain what you see in the simplest way possible.
+    Required Output Format:
+    Your entire output must be a single, valid JSON object with one key
+    {
+      "authenticity_explanation": "Your simple and convincing explanation of why the image appears authentic."
+    }
+    Example of a High-Quality Output:
+    (Input: Image of a person writing in a notebook at a wooden desk)
+    {
+      "authenticity_explanation": "This looks real because the wooden desk isn't perfect. You can see the little lines that all wood has, and there are even some tiny scratches on it, like a real desk that someone uses every day."
+    }
+    (Input: Image of a dog playing with a ball in a park)
+    {
+      "authenticity_explanation": "You can tell this is a real dog because he's a little bit messy. There's some mud on his nose and his paws are dirty, which shows he was really outside playing in the park."
+    }
+    Now, analyze the given image.
+    """  
 
+}
+
+QWEN_PROMPTS = {
+    "qwen_system_prompt": """
+    You are the "Digital Detective," an expert image analyst. Your mission is to determine if an image is real or tampered. Your entire response MUST be a single, raw JSON object. Do not include any introductory text, markdown formatting like ```json, or any text after the final closing brace }. You explain manipulations using simple, common-sense reasons and language that even a child could understand.
+    """,
+    "qwen_user_prompt_mark_1": """
+    Perform a forensic analysis of the provided image and produce your findings as a single, raw JSON object.
+
+        Your JSON must contain the keys: `verdict`, `manipulation_analysis`, `inferred_original_state`, and `inverse_edit_instruction`.
+
+        Adhere to these critical mission rules:
+        1.  **Real vs. Tampered:** If the image is "Real", use empty containers (`[]`, `{}`) for the analysis keys.
+        2.  **Entity Clarity (Crucial):** For the `manipulated_entity` field, provide a clear, high-level, and descriptive label for the entire altered thing (e.g., "the cyclist in the red jersey," "the vintage blue car"). The label must be specific enough to easily locate in the image but should not name a sub-part (like "the smile" or "the tire").
+        3.  **Inverse Instruction:** Your instruction to reverse the edit must be a descriptive command. **Do not use forbidden referential words** like "restore," "revert," "remove the edit," or "change back."
+        4.  **JSON Integrity:** Ensure your output is a single, valid JSON object with no extra text.
+    """,
+    "qwen_user_prompt_mark_2": 
+"""
+Perform a forensic analysis of the provided image. Produce a JSON object with the following keys: verdict, manipulation_analysis, inferred_original_state, and inverse_edit_instruction.
+If the image is authentic, set verdict to "Real", else "Tampered".
+When verdict == "Real":
+"manipulation_analysis": []
+"inferred_original_state": {}
+"inverse_edit_instruction": {}
+When verdict == "Tampered":
+"manipulation_analysis": [
+  {
+    "manipulated_entity": "<high-level description of the altered thing>",
+    "explanation": "<one simple reason it looks unnatural>"
+  },
+  … (one entry per DISTINCT entity that was changed)
+]
+"inferred_original_state": {
+  "description": "<how the scene would plausibly look if it were natural and unedited>"
+}
+"inverse_edit_instruction": {
+  "Effect": "<concise summary of what must be fixed>",
+  "Change Target": "<broad category, e.g. 'human', 'object', 'background'>",
+  "Explanation": [
+    "<referring expression for the entity>",
+    "<actionable visual instruction that undoes the edit without using words like 'restore' or 'revert'>"
+  ]
+}
+Rules:
+1. Your final manipulation_analysis must contain all the entity(ies) you actually see being manipulated in the images and should describe them at a high level (e.g., "the badminton player," "the red car," "the storefront sign"), not a specific sub-part (e.g., "the player's smile", "the player's shirt", "the car's front tire", etc.).
+2. Your explanation should not use any technical jargon, i.e. it should be understood by even a five year old.
+3. Produce valid JSON: double-quoted keys/strings, no trailing commas, and **no extra text outside the braces**.
+"""  
 }

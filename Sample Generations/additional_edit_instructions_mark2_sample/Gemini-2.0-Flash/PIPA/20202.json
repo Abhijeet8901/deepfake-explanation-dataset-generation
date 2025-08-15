@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate chandelier hanging from the ceiling above the staircase, casting light realistically.",
+    "remove_object": "Remove the woman's blue shoulder bag, making sure to seamlessly fill in the space.",
+    "replace_background": "Replace the building background seen through the left window with a realistic beach scene with proper lighting.",
+    "weather_time_change": "Add heavy rain visible outside the left window, with raindrops realistically hitting the glass and creating reflections.",
+    "physics_event": "Create the effect of the woman's sandals sliding off the stairs from her feet, showing them mid-air."
+  }
+}

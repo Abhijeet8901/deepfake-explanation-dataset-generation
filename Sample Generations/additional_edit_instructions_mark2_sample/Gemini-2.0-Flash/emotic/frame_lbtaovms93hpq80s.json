@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large inflatable dinosaur behind the last row of seats, casting a shadow on the wall.",
+    "remove_object": "Remove the popcorn buckets from all the moviegoers' laps, leaving only empty hands.",
+    "replace_background": "Replace the movie screen with a live feed of a tropical beach at sunset, matching the colors.",
+    "weather_time_change": "Add heavy rain streaks on the 'camera' lens, simulating a sudden downpour outside.",
+    "style_material_change": "Change the red movie theater seats to a bright, reflective chrome material with soft reflections."
+  }
+}

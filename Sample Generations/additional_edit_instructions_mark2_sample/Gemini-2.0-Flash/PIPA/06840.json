@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate chandelier hanging from the ceiling, casting a soft, diffused light on the women.",
+    "remove_object": "Remove the glass and the paper placed on the table, ensuring the table surface remains smooth and clean.",
+    "replace_background": "Replace the background with a bustling outdoor cafe scene, visible through a large window with realistic reflections.",
+    "weather_time_change": "Add a heavy rain effect outside the window, with raindrops realistically streaking down the glass and darkening the room.",
+    "style_material_change": "Change the black shirt on the right to a shimmering gold silk material, reflecting ambient light realistically."
+  }
+}

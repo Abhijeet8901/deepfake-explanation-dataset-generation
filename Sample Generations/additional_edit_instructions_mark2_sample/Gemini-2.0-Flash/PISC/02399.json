@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "reflection_shadow_edit": "Add a long, distorted shadow of the laptop onto the hardwood floor, extending behind the seated man.",
+    "replace_background": "Replace the background with a bustling cityscape at dusk, visible through a large window.",
+    "style_material_change": "Change the wooden floor to a shiny, polished marble with realistic floor-level reflections.",
+    "physics_event": "Create a slight gust of wind that rustles the edges of the man's shirt and hair, indicating an open window.",
+    "insert_object": "Insert a large, fluffy white cat sleeping peacefully on the table next to the open laptop."
+  }
+}

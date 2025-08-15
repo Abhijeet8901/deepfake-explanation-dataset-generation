@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large blimp floating above the group of people on the bridge, casting a faint shadow on the fog below.",
+    "remove_object": "Remove the last three people on the right side of the bridge along with their umbrellas and a section of the railing.",
+    "replace_background": "Replace the foggy background with a vibrant sunset over a mountain range, matching the lighting on the people.",
+    "weather_time_change": "Change the weather to a sunny day and add blooming flowers on either side of the bridge, creating a warm feel.",
+    "reflection_shadow_edit": "Add a mirror reflection of the bridge and people below, creating a sense of depth in the fog and adding appropriate blur."
+  }
+}

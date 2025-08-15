@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large soccer goal directly behind the player, respecting the perspective.",
+    "remove_object": "Remove the football from the ground, blending the grass seamlessly where it was.",
+    "replace_background": "Replace the background with a snowy mountain range, adding a soft, cold light.",
+    "weather_time_change": "Add heavy rain and puddles on the field, with streaks of water and reflections.",
+    "reflection_shadow_edit": "Add a strong reflection of the player on the wet grass, with a soft shadow slightly offset."
+  }
+}

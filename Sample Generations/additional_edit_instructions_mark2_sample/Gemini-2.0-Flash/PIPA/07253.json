@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate chandelier hanging from the ceiling, casting soft shadows on the attendees.",
+    "remove_object": "Remove the water pitcher from the table in front of the man in the suit, ensuring the tablecloth appears seamless.",
+    "replace_background": "Replace the background with a bustling city street scene visible through large windows, matching the perspective and lighting.",
+    "weather_time_change": "Add heavy rain streaks to the windows in the background, with corresponding reflections and diffused lighting.",
+    "duplication_scale": "Duplicate the flag pin on the man in uniform and enlarge it significantly, casting a shadow."
+  }
+}

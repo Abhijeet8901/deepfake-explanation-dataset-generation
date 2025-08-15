@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "reflection_shadow_edit": "Add a long, sharp shadow extending from the hanging sculpture onto the brick pavement, indicating a low sun angle.",
+    "style_material_change": "Change the material of the hanging sculpture to polished chrome, reflecting the surrounding buildings and sky.",
+    "insert_object": "Insert a large, inflatable rubber duck, scaled to half the building height, floating just above the sculpture.",
+    "physics_event": "Add the effect of a crack running across the leftmost window, as if impacted by a small rock.",
+    "remove_object": "Remove the tree and the suspended pot completely from the scene."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large, realistic birthday cake with candles on the table beside the man, casting a soft glow.",
+    "remove_object": "Remove the dog entirely from the image, seamlessly filling in the space where it was licking the man's face.",
+    "replace_background": "Replace the background with a bustling city street scene, matching the lighting and depth of field.",
+    "weather_time_change": "Add heavy rain to the image, creating visible streaks on the man's glasses and adding puddles on the couch.",
+    "physics_event": "Make the man's glasses suddenly shatter into many pieces, scattering small glass shards around his face with realistic physics."
+  }
+}

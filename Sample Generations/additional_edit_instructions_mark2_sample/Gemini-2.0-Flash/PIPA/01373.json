@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large inflatable flamingo onto the lawn, casting a shadow appropriate to its size and the existing lighting.",
+    "remove_object": "Remove the shed on the left, blending the grass seamlessly into the background.",
+    "replace_background": "Replace the backyard scene with a photorealistic image of a beach at sunset, matching the light source.",
+    "weather_time_change": "Change the scene to a light snowfall, with snow accumulating on the shed and the trees, and soft flakes falling.",
+    "style_material_change": "Change the wooden fence to a brick wall texture, respecting the original fence's structure and adding realistic brick details."
+  }
+}

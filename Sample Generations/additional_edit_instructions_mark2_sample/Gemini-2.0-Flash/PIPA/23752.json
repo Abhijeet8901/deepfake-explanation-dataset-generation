@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "A large lobster pot is inserted onto the kitchen island to the left, with a soft shadow.",
+    "remove_object": "Remove the oven from the scene, filling the space with the kitchen cabinets.",
+    "replace_background": "Replace the window view with a snow covered mountain range, matching the light direction.",
+    "weather_time_change": "Change the scene to night time, casting long shadows from the overhead lights.",
+    "style_material_change": "Change the material of the kitchen cabinets to dark wood, maintaining the existing shape and lighting."
+  }
+}

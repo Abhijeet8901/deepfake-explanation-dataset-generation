@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "replace_background": "Replace the background with a snow-covered forest, ensuring the lighting matches the girl's sweater.",
+    "weather_time_change": "Change the weather to a heavy rain, adding water droplets on the leaves and blurring the background.",
+    "style_material_change": "Change the girl's sweater to be made of denim, with realistic fabric texture and stitching.",
+    "reflection_shadow_edit": "Add a subtle, distorted reflection of the girl and the roses in the wet wooden fence.",
+    "insert_object": "Insert a small, realistic bird perched on the topmost rose, casting a faint shadow."
+  }
+}

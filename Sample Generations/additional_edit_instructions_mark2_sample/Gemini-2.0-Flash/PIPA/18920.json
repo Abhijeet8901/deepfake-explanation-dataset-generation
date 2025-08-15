@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, photorealistic baseball bat leaning against the fence behind the players, casting a soft shadow on the grass.",
+    "remove_object": "Remove the baseball glove from the player on the left, ensuring no residual shadow remains on his hand.",
+    "replace_background": "Replace the grassy background with a vibrant, photorealistic sunset over a desert landscape, matching the existing lighting.",
+    "weather_time_change": "Add heavy rainfall with visible raindrops and puddles on the ground, creating appropriate reflections and darkening the scene.",
+    "duplication_scale": "Duplicate the player on the right and scale him down to half the original size, placing him in front of the original player."
+  }
+}

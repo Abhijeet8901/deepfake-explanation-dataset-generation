@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large pizza box on the top shelf, making sure it is partially obscured by other objects for realism.",
+    "remove_object": "Remove the metal shelving unit on the left side of the image, filling the space with matching floor tiles.",
+    "replace_background": "Replace the background seen through the open doorway with a view of a tropical beach at sunset.",
+    "weather_time_change": "Add heavy rain outside, with streaks visible on the window and a darker, overcast look.",
+    "style_material_change": "Change the wooden cabinets to have a glossy, modern white finish, reflecting light realistically."
+  }
+}

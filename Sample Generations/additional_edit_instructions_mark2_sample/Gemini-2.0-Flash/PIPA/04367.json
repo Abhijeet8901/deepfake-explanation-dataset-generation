@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large, ornate golden statue behind the group, casting a dramatic shadow.",
+    "remove_object": "Remove the bicycle leaning against the tree on the left side of the image.",
+    "replace_background": "Replace the background with a vibrant, photorealistic cityscape at sunset, ensuring proper lighting.",
+    "weather_time_change": "Add heavy rain to the scene with visible droplets and reflections on the ground, blurring distant figures.",
+    "physics_event": "Add a flock of pigeons taking flight from behind the central woman, slightly blurring the motion."
+  }
+}

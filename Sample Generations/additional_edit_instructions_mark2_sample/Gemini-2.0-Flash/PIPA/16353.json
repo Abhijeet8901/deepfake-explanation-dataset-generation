@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large potted palm tree next to the podium, casting a soft shadow on the floor.",
+    "remove_object": "Remove the black cross hanging on the wall to the right of the flags, making the wall smooth.",
+    "replace_background": "Replace the outside view seen through the left window with a bustling cityscape at night, matching the window reflections.",
+    "weather_time_change": "Change the scene to a heavy rainstorm visible through the windows, adding rain streaks and darkening the room.",
+    "reflection_shadow_edit": "Add a dramatic, long shadow extending from the podium across the floor, suggesting a low sun angle."
+  }
+}

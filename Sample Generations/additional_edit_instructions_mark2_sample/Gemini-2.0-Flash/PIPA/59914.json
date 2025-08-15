@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "style_material_change": "Change the woman's dress to be made of denim, maintaining the original pattern and folds.",
+    "remove_object": "Remove the bracelet from the woman's raised hand, blending the wrist skin seamlessly.",
+    "reflection_shadow_edit": "Add a subtle reflection of the woman and the surrounding crowd in the shiny earring, respecting perspective.",
+    "weather_time_change": "Change the indoor scene to a bright, sunny day with light streaming in from non-visible windows.",
+    "insert_object": "Insert a disco ball hanging from the ceiling corner, casting colored light beams on the people."
+  }
+}

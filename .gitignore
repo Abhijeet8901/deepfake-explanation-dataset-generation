@@ -2,4 +2,9 @@
 __pycache__/
 *.zip
 Sample Explanations/*
- 
+Generated Explanations/* 
+Runtime Logs/*
+Gemini-2.0-Flash/Qwen Mappings/*
+Gemini-2.0-Flash/SIDA Mappings/*
+qwen_finetuned_models/*
+config/*

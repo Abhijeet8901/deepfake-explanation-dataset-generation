@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, ornate birdcage with colorful parrots hanging from the ceiling, casting a shadow on the blue wall.",
+    "remove_object": "Remove the open suitcase on the bed, making the bed appear empty and the room less cluttered.",
+    "replace_background": "Replace the blue wall and striped curtain with a photorealistic view of a sunny beach with palm trees.",
+    "weather_time_change": "Change the scene to nighttime with heavy rainfall visible through a newly added window on the left, with corresponding reflections on the floor.",
+    "style_material_change": "Change the wooden door to a metallic door with a brushed steel finish, reflecting the room's interior."
+  }
+}

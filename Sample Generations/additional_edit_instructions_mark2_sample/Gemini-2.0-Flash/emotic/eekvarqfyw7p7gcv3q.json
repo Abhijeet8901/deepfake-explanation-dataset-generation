@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a large, ornate chandelier hanging above the crowd, casting soft shadows on the people below.",
+    "remove_object": "Remove the woman's bracelet on her left wrist, ensuring no residual trace of the gold remains on her skin.",
+    "replace_background": "Replace the leafy background with a bustling city street scene, keeping the lighting consistent with the original.",
+    "weather_time_change": "Add a heavy rain effect with blurred raindrops and wet surfaces to the scene, making the people appear drenched.",
+    "duplication_scale": "Duplicate the red flowers above the crowd and scale them up, creating giant, vibrant blossoms."
+  }
+}

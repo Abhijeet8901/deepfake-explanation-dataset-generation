@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, intricately designed chandelier hanging from the ceiling, casting soft shadows on the walls.",
+    "remove_object": "Remove the window on the left side of the image to create a blank wall space.",
+    "replace_background": "Replace the background seen through the right window with a snowy mountain landscape, matching the original window's lighting.",
+    "weather_time_change": "Add heavy rain streaks to the right window and darken the overall scene to simulate a stormy night.",
+    "duplication_scale": "Duplicate the TV and shrink it to a miniature size, placing it on the shelf above the original, respecting perspective."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a giant rubber duck hovering just above the skateboard, casting a faint shadow on the ground.",
+    "remove_object": "Remove the fence and the people sitting near the fence, replacing the background with rolling green hills.",
+    "replace_background": "Replace the blue sky with a swirling nebula, making sure the lighting on the boy is consistent.",
+    "weather_time_change": "Change the time to sunset, casting long shadows and giving the sky a warm, orange glow.",
+    "style_material_change": "Turn the asphalt ground into a reflective, polished concrete, mirroring the skater's figure."
+  }
+}

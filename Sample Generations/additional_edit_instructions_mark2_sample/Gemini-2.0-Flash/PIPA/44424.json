@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "style_material_change": "Change the man's checkered shirt to a vibrant, eye-catching sequin fabric, adding realistic light reflections.",
+    "weather_time_change": "Transform the image to appear during a heavy rainstorm at night, adding raindrops and wet reflections on surfaces.",
+    "remove_object": "Remove the disco ball hanging in the background, replacing it with a dark, empty space.",
+    "reflection_shadow_edit": "Add a long, dramatic shadow behind the woman, stretching across the floor, suggesting a light source from off-screen.",
+    "insert_object": "Insert a large, ornate chandelier in the background above the couple, ensuring it casts a soft glow on them."
+  }
+}

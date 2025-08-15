@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "style_material_change": "Change the snow's material to look like shiny metallic silver, reflecting the sky.",
+    "remove_object": "Remove the ski lift from the background, ensuring the mountain range is uninterrupted.",
+    "replace_background": "Replace the background mountain range with a vibrant tropical beach scene, keeping the horizon consistent.",
+    "physics_event": "Add a large avalanche barreling down the mountain behind the skiers, kicking up snow and creating a sense of scale.",
+    "reflection_shadow_edit": "Add a long, dramatic shadow extending from the skiers down the slope, respecting the light source."
+  }
+}

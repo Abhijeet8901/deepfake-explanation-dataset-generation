@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large potted palm tree into the left corner of the room, casting a realistic shadow onto the wall.",
+    "replace_background": "Replace the plain wall behind the table with a cityscape view seen through a large window.",
+    "style_material_change": "Change the wooden table to a polished marble surface, reflecting the light and surrounding objects.",
+    "physics_event": "Add a gust of wind blowing some of the papers slightly off the table, with motion blur for realism.",
+    "duplication_scale": "Create a miniature duplicate of the water cooler on the desk in front of the original, scaling it down appropriately."
+  }
+}

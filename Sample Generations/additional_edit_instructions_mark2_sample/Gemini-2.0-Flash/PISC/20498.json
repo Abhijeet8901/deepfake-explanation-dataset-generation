@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Add a giant, inflatable flamingo floating just above the tennis net, casting a shadow on the court.",
+    "remove_object": "Remove all the umbrellas from the background, altering the lighting slightly to compensate.",
+    "replace_background": "Replace the background with a vibrant sunset over a beach, maintaining consistent lighting on the players.",
+    "weather_time_change": "Change the weather to heavy rain, adding visible raindrops and splashes, with corresponding reflections on the court.",
+    "style_material_change": "Change the tennis court surface to bright red clay, with a slight stylistic color shift in the image."
+  }
+}

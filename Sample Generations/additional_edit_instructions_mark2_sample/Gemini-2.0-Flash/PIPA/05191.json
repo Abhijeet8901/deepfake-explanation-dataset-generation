@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "replace_background": "Replace the background with a snowy mountain range, ensuring proper lighting and perspective.",
+    "insert_object": "Insert a large, ornate chandelier hanging from the ceiling, casting realistic shadows.",
+    "weather_time_change": "Change the scene to a rainy day by adding raindrops on the left window, and dim the lighting.",
+    "reflection_shadow_edit": "Add a reflection of the woman on the left onto the polished floor, ensuring correct angle and blur.",
+    "style_material_change": "Change the material of the man's suit on the right to a shimmering gold fabric, reflecting surrounding light."
+  }
+}

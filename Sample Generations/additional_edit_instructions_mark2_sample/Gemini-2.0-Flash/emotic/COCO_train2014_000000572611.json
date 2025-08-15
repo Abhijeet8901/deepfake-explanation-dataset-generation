@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "insert_object": "Insert a large, realistic-looking parrot perched on the left man's shoulder, casting a subtle shadow.",
+    "remove_object": "Remove the plate of fries from the table, ensuring the table texture and surrounding objects are seamlessly filled in.",
+    "replace_background": "Replace the background outside the building with a nighttime city skyline, reflecting light appropriately in the windows.",
+    "weather_time_change": "Add heavy rain to the scene, with water droplets realistically running down the window and creating puddles on the patio.",
+    "reflection_shadow_edit": "Add a large, slightly distorted reflection of a vintage motorcycle in the window behind the men."
+  }
+}

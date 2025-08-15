@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "remove_object": "Remove the woman in the foreground wearing a blue shirt.",
+    "style_material_change": "Change the elephants' skin to a bright, iridescent green color, making them appear otherworldly.",
+    "replace_background": "Replace the forest background with a bustling cityscape at night, adding light sources and reflections.",
+    "weather_time_change": "Add heavy rain and dark clouds to the sky, making the ground wet and reflecting light with visible puddles.",
+    "reflection_shadow_edit": "Add a long, distorted shadow behind the fence posts that stretches out towards the lower left of the image."
+  }
+}

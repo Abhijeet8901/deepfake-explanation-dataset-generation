@@ -1,0 +1,9 @@
+{
+  "manipulations": {
+    "remove_object": "Remove the baseball equipment, like the baseball glove, that the girl on the right side is carrying.",
+    "style_material_change": "Change the purple baseball uniform of both children into a vibrant, eye-catching neon green material.",
+    "replace_background": "Replace the park background with a photorealistic rendering of a bustling city street at night.",
+    "weather_time_change": "Add a heavy rain effect with visible raindrops and reflections on the ground, suggesting a downpour.",
+    "insert_object": "Add a large, inflatable T-Rex dinosaur standing behind the child on the left, casting a shadow."
+  }
+}
